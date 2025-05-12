@@ -63,5 +63,3 @@ So far in Phase 2 I’ve been establishing my **workflow** and exploring **early
 > 1. Export screenshots from the PDF as `.png`.  
 > 2. In GitHub: **Add file → Upload files** into `/assets`.  
 > 3. Reference them as shown above.  
-
-Stay tuned for **Prototype 3 Results**, where I’ll share my first PLA-printed skull halves and CT/HU validation data!  
