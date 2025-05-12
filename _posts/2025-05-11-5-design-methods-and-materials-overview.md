@@ -98,6 +98,6 @@ So now I’m left wondering...
 
 Is a high-res CT skull **too detailed** for an FDM printer to realistically handle? Do I simplify? Reduce mesh resolution? Mask out internal noise during segmentation?
 
-I don’t know the answer yet, but it’s clear that if I want to get this prototype on a print bed—especially through a public library service—I’ll need to rethink the way I’m preparing this mesh.
+I don’t know the answer yet, but it’s clear that if I want to get this prototype on a print bed—especially through a Edmonton Public Library—I’ll need to rethink the way I’m preparing this mesh.
 
 Stay tuned.
