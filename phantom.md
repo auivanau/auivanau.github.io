@@ -1,3 +1,9 @@
+---
+layout: page
+title: Enhanced Anthropomorphic Phantom
+permalink: /phantom/
+---
+
 # Enhanced Anthropomorphic Phantom
 
 **Goal:** Create a realistic 3D-printed skull model for radiation oncology quality assurance (QA).
@@ -9,3 +15,14 @@ I wanted a project I could scale up in the future but still complete a **minimum
 I've always been interested in emerging technologies, and for this specific project I relied heavily on ChatGPT — using it like a project manager, research assistant, and technical editor all in one. It drastically improved how quickly I could prototype, iterate, and make decisions. It felt like leading a small engineering team to bring this idea to life.
 
 Welcome to the build log.
+
+---
+
+## Posts in this project
+
+{% assign phantom_posts = site.posts | where_exp: "post", "post.path contains '/phantom/'" %}
+<ul>
+{% for post in phantom_posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %e, %Y" }})</small></li>
+{% endfor %}
+</ul>
