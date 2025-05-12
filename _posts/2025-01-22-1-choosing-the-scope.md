@@ -7,7 +7,19 @@ categories: planning phantom scope
 
 When I started brainstorming this project, I knew I wanted to bridge two parts of my life: my **background in materials engineering**, and my **current path in medicine**. I missed the technical challenges from my engineering career, and saw an opportunity to bring that mindset into something clinically useful — particularly for radiation oncology, radiology, and education.
 
-But the first challenge was obvious: **what exactly should I build?**
+### A Tangent That Led Me Here
+
+Before I landed on the idea of building a radiation therapy phantom, I was actually exploring something totally different—a high-fidelity auscultation dummy to help med students practice hearing murmurs. The idea was to simulate realistic heart sounds using layered materials, speakers, and maybe even vibration transducers to replicate how sound travels through the chest.
+
+As I dove into speaker placement and tissue-like composites, it hit me—this was exactly the kind of hands-on design I used to love in materials engineering. But then a sharper idea came in: what if I applied that same mindset to radiation?
+
+Radiation oncology has its own need for anatomically accurate phantoms, especially for QA. So I pivoted. Instead of mimicking sound through a ribcage, I’d mimic **radiation** through bone, air, and soft tissue. 
+
+So in a way, this isn’t a brand-new idea—it’s just the same design itch, redirected toward something even more clinically relevant. But *maybe* in the future, I can incorporate bio-printing real cells on to this, perhaps I can test different methods and materials of 3d-printing material, maybe incorporate sensors, motors? Who knows.
+
+But I didn't want to get ahead of myself. The first challenge was obvious: **what exactly should I build?**
+
+The skull, sinuses, and eyes became the perfect target: small, distinct, radiologically complex, and realistically printable on a tight schedule.
 
 ---
 
