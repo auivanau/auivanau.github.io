@@ -31,7 +31,7 @@ This prototype will let me:
 
 ---
 
-## 🔜 Next Posts Will Cover
+## 🔜 Next Posts Will Cover (hopefully)
 
 - **Uploading & preparing** the skull STL for EPL submission  
 - **First print results**: photos, filament weight, warping observations  
