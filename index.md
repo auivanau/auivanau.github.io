@@ -4,18 +4,31 @@ title: Home
 permalink: /
 ---
 
-# Welcome
+# Home
 
-Hi, I’m Ivan.
+### Welcome
 
-I’m currently a medical student at the University of Alberta, with a background in materials engineering (P.Eng). This blog documents my independent projects that blend some of my background in engineering in to medicine. 
-
-Thanks for stopping by.
-
+This site documents some of my independent projects at the intersection of engineering, medicine, and public health.
 
 ## Projects
 
-<ul class="project-list">
-  <li><a href="/phantom/">🧠 Enhanced Anthropomorphic Phantom</a></li>
-  <li><a href="/oilsands/">📖 Oil Sands Public Health Project</a></li>
-</ul>
+<table>
+  <tr>
+    <td>
+      <a href="/planning/phantom/scope/2025/01/22/1-choosing-the-scope.html">
+        <img src="/assets/ct-sagittal-view.png" alt="Phantom Project" width="120"><br>
+        🧠 Enhanced Anthropomorphic Phantom
+      </a>
+    </td>
+    <td>
+      <a href="/oilsands">
+        📚 Oil Sands Public Health Project
+      </a>
+    </td>
+    <td>
+      <a href="/about">
+        🧍‍♂️ About Me
+      </a>
+    </td>
+  </tr>
+</table>
