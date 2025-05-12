@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3. Building My Own DICOM Downloader"
-date: 2025-05-30
+date: 2025-02-27
 categories: tooling python dicom
 ---
 
