@@ -41,7 +41,9 @@ I scored each one across several weighted criteria:
 - Presentation Impact
 - Resource Requirements
 
-Each criterion was weighted based on what I personally valued for this project, and each option was rated from 1 (poor) to 5 (excellent) per criterion. You can [view the full decision matrix here](#) *(link coming soon)*.
+Each criterion was weighted based on what I personally valued for this project, and each option was rated from 1 (poor) to 5 (excellent) per criterion. 
+
+![Decision Matrix-Scope](/assets/phantom_decision_matrix.png)
 
 ---
 
