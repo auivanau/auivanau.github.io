@@ -44,4 +44,5 @@ defaults:
 header_pages:
   - index.md
   - oilsands.md
+  - about.md
 
