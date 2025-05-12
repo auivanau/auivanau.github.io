@@ -64,7 +64,7 @@ print(f"Saved: {file_list_path}")
   <li><code>aria2c</code> for actual downloading</li>
 </ul>
 
-<p>I probably didn't need to go though THIS much work, but it kinda made me feel like a stupider version of Newton creating calculus to determine orbits.</p>
+<p>I probably didn't need to go though THIS much work, but it kinda made me feel like a Newton creating calculus to determine orbits, albeit a much stupider and lazier version of Newton.</p>
 
 <h2>🎯 Why I Bothered</h2>
 <p>Because doing this saved me days of clicking and let me use <strong>real CT data</strong> from a well-documented open-access source. More importantly, it reminded me of something:</p>
