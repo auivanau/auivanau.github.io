@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Market Landscape & Materials Selection"
+title: "2. Market Landscape & Materials Selection"
 date: 2025-01-24
 categories: planning phantom market materials
 ---
