@@ -45,3 +45,43 @@ body.theme-light footer,
 body.theme-light nav {
   background-color: #f0f0f0 !important;
 }
+/* Improve typography for readability */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Make site title and headings readable in both themes */
+.site-title,
+h1, h2, h3 {
+  color: inherit;
+}
+
+body.theme-dark .site-title,
+body.theme-dark h1,
+body.theme-dark h2,
+body.theme-dark h3 {
+  color: #ffffff !important;
+}
+
+body.theme-light .site-title,
+body.theme-light h1,
+body.theme-light h2,
+body.theme-light h3 {
+  color: #111111 !important;
+}
+
+/* Improve nav link contrast */
+body.theme-dark nav a {
+  color: #90caf9 !important;
+}
+
+body.theme-light nav a {
+  color: #0056b3 !important;
+}
+
+/* Optional: underline links on hover for better accessibility */
+a:hover {
+  text-decoration: underline;
+}
