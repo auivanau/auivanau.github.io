@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3. Defining the MVP: A Rapid PLA Skull Prototype"
-date: 2025-05-12
+date: 2025-05-07
 categories: planning phantom mvp
 ---
 
