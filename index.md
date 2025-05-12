@@ -10,6 +10,8 @@ This site documents some of my independent projects at the intersection of engin
 
 ## Projects
 
-- 🧠 [Enhanced Anthropomorphic Phantom](/phantom/)
-- 🌫️ [Oil Sands Public Health Project](/oilsands/)
-- 👤 [About Me](/about/)
+<ul class="project-list">
+  <li><a href="/phantom/">🧠 Enhanced Anthropomorphic Phantom</a></li>
+  <li><a href="/oilsands/">📖 Oil Sands Public Health Project</a></li>
+  <li><a href="/about/">👤 About Me</a></li>
+</ul>
