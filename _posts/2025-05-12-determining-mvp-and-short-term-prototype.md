@@ -4,8 +4,7 @@ title: "Defining the MVP: A Rapid PLA Skull Prototype"
 date: 2025-05-12
 categories: planning phantom mvp
 ---
-
-After diving deep into materials, market surveys, and printer specs, it became clear that my original vision— a multi-material skull with sinuses and PETG eyes—was powerful but ambitious. With rotations in General Surgery behind me and my time limited, I needed an MVP I could reliably finish in weeks, not months.
+After juggling rotations in General Surgery and deep dives into materials research, market surveys, and printer specs, it became clear that my original vision—a multi-material skull with sinuses and PETG eyes—was too ambitious for the short term. I needed a streamlined MVP I could complete in weeks, not months.
 ---
 
 ## 🎯 Pivot to a Short-Term Goal
