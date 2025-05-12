@@ -30,3 +30,6 @@ It integrates the following data sources:
 - Analyze injury trends relative to pollutant levels and weather
 - Understand demographic disparities (including Indigenous populations and fly-in/fly-out workers)
 
+{% for post in site.categories.oil-sands %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
