@@ -5,7 +5,7 @@ date: 2025-05-07
 categories: planning phantom mvp
 ---
 
-After that  deep dives into materials research, market surveys, and printer specs, I was roughing it in General Surgery. Project had to be delayed. It became clear that my original vision—a multi-material skull with sinuses and PETG eyes—was too ambitious for the short term. I needed a streamlined MVP I could complete in weeks, not months.
+After that  deep dives into materials research, market surveys, and printer specs, it hit March and I was being gen-surged. Project had to be delayed. It became clear that my original vision—a multi-material skull with sinuses and PETG eyes—was too ambitious for the short term. I needed a streamlined MVP I could complete in weeks, not months.
 
 ---
 
