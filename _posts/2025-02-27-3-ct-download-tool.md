@@ -72,5 +72,3 @@ print(f"Saved: {file_list_path}")
 <blockquote>
 <p>In projects like this, you're not just learning anatomy or CT—you end up inventing tools, pipelines, and workflows that didn’t exist before. That’s where the growth happens.</p>
 </blockquote>
-
-<p>Stay tuned for how I brought these DICOMs into InVesalius and converted them into a 3D-printable skull model!</p>
