@@ -18,5 +18,4 @@ Thanks for stopping by.
 <ul class="project-list">
   <li><a href="/phantom/">🧠 Enhanced Anthropomorphic Phantom</a></li>
   <li><a href="/oilsands/">📖 Oil Sands Public Health Project</a></li>
-  <li><a href="/about/">👤 About Me</a></li>
 </ul>
