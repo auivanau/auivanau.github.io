@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Choosing the Scope: Skull, Eyes & Sinuses"
+title: "1. Choosing the Scope: Skull, Eyes & Sinuses"
 date: 2025-01-22
 categories: planning phantom scope
 ---
