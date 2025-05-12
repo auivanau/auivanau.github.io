@@ -1,0 +1,59 @@
+---
+layout: post
+title: "Phase 2 Overview: Design Methods & Materials"
+date: 2025-06-01
+categories: prototype methods materials
+---
+
+So far in Phase 2 I’ve been establishing my **workflow** and exploring **early prototypes**.  
+
+---
+
+## 1. CT → 3D Model Pipeline
+
+1. **Download CT** from the Visible Human Project (Harvard Dataverse) via a custom Python DICOM downloader.  
+2. **Segment bone** in InVesalius 3 using a threshold of **236–2875 HU**.  
+3. **Generate surface** and export as an STL for printing.  
+
+### CT Images (Visible Human Project)
+
+```figure
+![Axial CT slice showing bone mask threshold](assets/ct-axial-bone-mask.png)
+
+### 2. Mesh Cleanup & Prototyping  
+
+#### Prototype 1 (May 7, 2025)  
+- **Skipped** smoothing/hole-fill (Meshmixer) and advanced mods (Fusion/Blender).  
+- **Sliced** directly in PrusaSlicer:  
+  ![Prototype 1 in PrusaSlicer showing oversized and over-detailed mesh](/assets/prototype1-prusaslicer.png)  
+  - **Issues**:  
+    1. Model too large (cut off at the build-plate limits)  
+    2. Mesh too fine for 0.4 mm nozzle → thousands of unprintable facets  
+    3. No stable base (floating vertebrae) → massive supports required  
+
+#### Prototype 2 (Mid-May)  
+- Added **Meshmixer smoothing** & hole-filling.  
+- Tried additional **Fusion 360** mods before slicing again.  
+- **Results** (rotated halves, fewer errors):  
+  ![Prototype 2 cleaned and split halves](/assets/prototype2-cleaned.png)  
+- **Remaining challenge**: excessive internal “junk” geometry and non-manifold fragments  
+
+### 3. Next Steps in Phase 2  
+1. **Automated repair**: use Meshmixer’s Inspector on a decimated mesh (50–80 % reduction).  
+2. **Manual cleanup**: export only the outer shell via Separate Shells (or Make Solid → Separate Shells).  
+3. **Plane cut** along a surgical plane (parallel to the mandible) for printable halves.  
+4. **Test print** at EPL with PLA.  
+5. **Measure** dimensional accuracy and log filament usage.
+
+---
+
+> 📂 **Uploading figures**  
+> 1. Export each screenshot from your PDF (right-click → “Save as…” in your PDF viewer).  
+> 2. In GitHub: **Add file → Upload files** into an `/assets` folder at the repo root.  
+> 3. Reference them in markdown as:  
+>    ```md
+>    ![Alt text](/assets/your-filename.png)
+>    ```  
+> You don’t need Imgur or external hosting—GitHub Pages will serve these images directly.
+
+Stay tuned for **Prototype 3 Results**, where I’ll share my first PLA‐printed skull halves and CT validation data!  
