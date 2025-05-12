@@ -47,5 +47,3 @@ I needed three radiological mimics:
 1. **Upload** the decision matrix and material-comparison chart (under `/assets`) and link here.  
 2. Begin **test prints** of small skull sections at the EPL Makerspace.  
 3. Document print times, weight, and initial CT/HU validation.
-
-Stay tuned for **“Phase 2 Prototype Results,”** where I’ll share screenshots, CT scans, and first validation data!  
