@@ -14,20 +14,15 @@ This site documents some of my independent projects at the intersection of engin
 
 <table>
   <tr>
-    <td>
+    <td style="text-align: center; vertical-align: top;">
       <a href="/planning/phantom/scope/2025/01/22/1-choosing-the-scope.html">
-        <img src="/assets/ct-sagittal-view.png" alt="Phantom Project" width="120"><br>
-        🧠 Enhanced Anthropomorphic Phantom
+        <img src="/assets/ct-sagittal-view.png" alt="Phantom Project CT Preview" width="320"><br>
+        🧠 <strong>Enhanced Anthropomorphic Phantom</strong>
       </a>
     </td>
-    <td>
+    <td style="text-align: center; vertical-align: top;">
       <a href="/oilsands">
-        📚 Oil Sands Public Health Project
-      </a>
-    </td>
-    <td>
-      <a href="/about">
-        🧍‍♂️ About Me
+        📚 <strong>Oil Sands Public Health Project</strong>
       </a>
     </td>
   </tr>
