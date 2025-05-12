@@ -6,7 +6,12 @@ permalink: /
 
 # Welcome
 
-This site documents some of my independent projects at the intersection of engineering, medicine, and public health.
+Hi, I’m Ivan.
+
+I’m currently a medical student at the University of Alberta, with a background in materials engineering (P.Eng). This blog documents my independent projects that blend some of my background in engineering in to medicine. 
+
+Thanks for stopping by.
+
 
 ## Projects
 
