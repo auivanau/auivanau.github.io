@@ -13,7 +13,7 @@ Before I landed on the idea of building a radiation therapy phantom, I was actua
 
 As I dove into speaker placement and tissue-like composites, it hit me—this was exactly the kind of hands-on design I used to love in materials engineering. But then a sharper idea came in: what if I applied that same mindset to radiation?
 
-Radiation oncology has its own need for anatomically accurate phantoms, especially for QA. So I pivoted. Instead of mimicking sound through a ribcage, I’d mimic **radiation** through bone, air, and soft tissue. 
+Radiation oncology has its own need for anatomically accurate phantoms, especially for QA. So I pivoted. Instead of mimicking sound through a ribcage, I’d mimic **radiation** through bone, air, and soft tissue.
 
 So in a way, this isn’t a brand-new idea—it’s just the same design itch, redirected toward something even more clinically relevant. But *maybe* in the future, I can incorporate bio-printing real cells on to this, perhaps I can test different methods and materials of 3d-printing material, maybe incorporate sensors, motors? Who knows.
 
