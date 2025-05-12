@@ -85,3 +85,28 @@ body.theme-light nav a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Style for project list on homepage */
+.project-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.project-list li {
+  margin-bottom: 0.75rem;
+}
+
+.project-list li a {
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: inline-block;
+  line-height: 1.4;
+}
+
+/* Optional: add icons with spacing */
+.project-list li::before {
+  content: "🔹 ";
+  margin-right: 0.25rem;
+}
+
