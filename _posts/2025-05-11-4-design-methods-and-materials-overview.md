@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Phase 2 Overview: Design Methods & Materials"
+title: "4. Phase 2 Overview: Design Methods & Materials"
 date: 2025-05-11
 categories: prototype methods materials
 ---
