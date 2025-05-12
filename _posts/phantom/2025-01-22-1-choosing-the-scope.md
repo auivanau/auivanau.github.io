@@ -21,6 +21,8 @@ But I didn't want to get ahead of myself. The first challenge was obvious: **wha
 
 The skull, sinuses, and eyes became the perfect target: small, distinct, radiologically complex, and realistically printable on a tight schedule.
 
+I also considered other anatomical regions like the hand or pelvis. While those could be great future directions, the skull stood out for a few reasons. First, it’s immediately recognizable and visually impactful. Second, it offers a good mix of anatomical features—bone, air-filled sinuses, nervous system structures, and vascular channels—all packed into a relatively compact space. And from a clinical standpoint, head and neck anatomy is one of the most demanding areas in radiation oncology when it comes to contouring and treatment planning. So if I could build a phantom that performs well here, it would set a high standard for future expansions.
+
 ---
 
 ### 🧠 Structuring the Problem
