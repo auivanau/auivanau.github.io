@@ -43,8 +43,6 @@ defaults:
 
 header_pages:
   - index.md
-  - phantom.md
-  - oilsands.md
   - about.md
 
 
