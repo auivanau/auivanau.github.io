@@ -101,11 +101,3 @@ Is a high-res CT skull **too detailed** for an FDM printer to realistically hand
 I don’t know the answer yet, but it’s clear that if I want to get this prototype on a print bed—especially through a public library service—I’ll need to rethink the way I’m preparing this mesh.
 
 Stay tuned.
-
-
----
-
-> **Uploading figures**  
-> 1. Export screenshots from the PDF as `.png`.  
-> 2. In GitHub: **Add file → Upload files** into `/assets`.  
-> 3. Reference them as shown above.  
