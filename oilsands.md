@@ -16,7 +16,7 @@ It integrates the following data sources:
 - Air pollution metrics (e.g. PM2.5, NO₂, SO₂)
 - Demographic data from Statistics Canada
 
-**- Let's add a little scientific rigor to this:**
+**Let's add a little scientific rigor to this:**
 - P (Population): Workers employed in the Alberta oil sands industry (e.g., Syncrude, Mildred Lake) from 2005 to 2024
 - I (Intervention/Exposure): Occupational exposure to oil sands emissions (e.g., SO₂, PM₂.₅, VOCs)
 - C (Comparison): General Alberta workforce or workers in other non-oil-sands heavy industry sectors
