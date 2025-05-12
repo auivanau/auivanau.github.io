@@ -10,6 +10,6 @@ This site documents some of my independent projects at the intersection of engin
 
 ## Projects
 
-- 🧠 [Radiation Oncology Phantom Project](/phantom/)
+- 🧠 [Enhanced Anthropomorphic Phantom](/phantom/)
 - 🌫️ [Oil Sands Public Health Project](/oilsands/)
 - 👤 [About Me](/about/)
