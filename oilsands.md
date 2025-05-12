@@ -5,9 +5,11 @@ permalink: /oilsands/
 ---
 
 # Occupational & Environmental Health Near Mildred Lake Oil Sands
+In my previous career as a materials engineer, my first "real" job out of undergrad brought me back to my hometown—Fort McMurray. I returned to work where I grew up, where my dad had worked for 23 years straight without ever taking a sick day (a detail he loved to brag about). I remember my first time on the Diversified coach bus, riding north toward the land of grade-AAA, Alberta-born-and-bred gold: the oil sands. It was a bumpy, sleepy ride. I woke up five minutes before arrival and looked out to see a desert where there used to be forest—truly barren. And then, in the distance, growing larger, was a plume of vapor and a massive bucket excavator.
 
-In my previous career as a materials engineer, my first "real" job I got out of undergrad was to return back to my home city in Fort Mac. To work where I grew up, to work where my dad had worked for 23 years straight without taking a sick day (this detail he loved to brag about). I remember the first time on the diversified coach buses riding north to land of grade-AAA Alberta-born-and-bred gold (oil sands). Bumpy, sleepy, ride. I wake up 5 minutes from the end and I see a desert where there used to be a forest. Truly barren, and then, off in the distance, getting larger, is a plume of vapor, and a huge bucket excavator.
-As I was standing in that parking lot outside, watching employees march towards 41B, I took a breath, of not-so-fresh air. This air had gone through a lot, it was beat up and roughed up. My olfactory bulbs conducted these memories deep in to my hppocampus. I've always been a bit of a systems thinker. If you want big change, you gotta see things farther out. So I thought maybe this could be an intersting field that not a lot of people are looking in to? Is there some connection between the air quality and places like oil sands and getting sick?
+As I stood in the parking lot, watching employees march toward 41B, I took a breath of not-so-fresh air. This air had been through a lot—beat up and roughed up. My olfactory bulbs carried that moment deep into my hippocampus.
+
+I’ve always been a bit of a systems thinker. If you want real change, you need to see the bigger picture. And I began to wonder: could this be an interesting field that not many people are paying attention to? Is there a connection between the air quality in places like the oil sands and people getting sick?
 
 This is an independent scholarly project that investigates population-level occupational and environmental health concerns in the Wood Buffalo region of Alberta, Canada.
 
