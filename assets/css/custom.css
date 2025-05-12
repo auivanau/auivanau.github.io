@@ -1,24 +1,27 @@
-/* Light mode default */
-body {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-a {
-  color: #0066cc;
-}
-
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #121212;
     color: #e0e0e0;
   }
-
   a {
     color: #90caf9;
   }
-
   header, footer, nav {
     background-color: #1e1e1e;
   }
+}
+
+body.theme-dark {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+body.theme-dark a {
+  color: #90caf9 !important;
+}
+body.theme-light {
+  background-color: white !important;
+  color: black !important;
+}
+body.theme-light a {
+  color: #0066cc !important;
 }
