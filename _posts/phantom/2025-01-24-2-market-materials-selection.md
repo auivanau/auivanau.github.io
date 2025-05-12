@@ -9,6 +9,7 @@ Before prototyping my own phantom, I surveyed two areas in parallel:
 2. **What materials best mimic bone, air, and soft tissue on CT?**  
 ---
 ## 1. Market Landscape
+
 | Category               | Examples                                    | Cost          | Notes                                      |
 |------------------------|---------------------------------------------|---------------|--------------------------------------------|
 | **Commercial Phantoms**| Civco, 3D Systems, Stratasys                | \$5 K–\$20 K+ | Turnkey, multi-material, CT-validated      |
@@ -19,6 +20,7 @@ Before prototyping my own phantom, I surveyed two areas in parallel:
 ---
 ## 2. Materials Selection
 I needed three radiological mimics:
+
 | Component  | Target HU Range      | Material Option                 | Pros                                      | Cons                                  |
 |------------|----------------------|---------------------------------|-------------------------------------------|---------------------------------------|
 | **Skull**  | 700–3 000 HU         | Proto-Pasta Stainless Steel PLA | Prints on FDM; higher density than PLA    | Abrasive (requires hardened nozzle)   |
