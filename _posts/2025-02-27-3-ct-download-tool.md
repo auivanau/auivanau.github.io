@@ -72,4 +72,4 @@ print(f"Saved: {file_list_path}")
 <blockquote>
 <p>In projects like this, you're not just learning anatomy or CT—you end up inventing tools, pipelines, and workflows that didn’t exist before. That’s where the growth happens.</p>
 </blockquote>
--At least that's what ChatGPT tells me when it reflects on my project status.
+At least that's what ChatGPT tells me when it reflects on my project status.
