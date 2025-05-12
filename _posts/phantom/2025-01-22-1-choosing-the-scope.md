@@ -45,7 +45,19 @@ I scored each one across several weighted criteria:
 
 Each criterion was weighted based on what I personally valued for this project, and each option was rated from 1 (poor) to 5 (excellent) per criterion. 
 
-![Decision Matrix-Scope](/assets/phantom_decision_matrix.png)
+### 📊 Decision Matrix Summary
+
+
+| **Criteria**           | **Weight (%)** | **Option A**<br>Skull Only | **Option B**<br>Skull + Sinuses | **Option C**<br>Skull + Sinuses + Eyes | **Option D**<br>+ Facial Features |
+|------------------------|----------------|-----------------------------|----------------------------------|-----------------------------------------|-------------------------------|
+| Anatomical Accuracy    | 20             | 3                           | 4                                | 4                                       | 5                             |
+| Distinctiveness        | 15             | 3                           | 4                                | 5                                       | 5                             |
+| Feasibility            | 15             | 5                           | 4                                | 3                                       | 2                             |
+| Clinical Relevance     | 20             | 3                           | 4                                | 4                                       | 5                             |
+| Educational Value      | 10             | 2                           | 3                                | 4                                       | 5                             |
+| Presentation Impact    | 10             | 2                           | 3                                | 4                                       | 5                             |
+| Resource Requirements  | 10             | 5                           | 4                                | 3                                       | 2                             |
+| **Total Score**        | **100**        | **3.1**                     | **3.6**                          | **3.9**                                 | **4.0**                       |
 
 ---
 
