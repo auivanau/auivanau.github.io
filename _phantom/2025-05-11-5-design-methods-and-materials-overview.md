@@ -17,7 +17,6 @@ So far in Phase 2 I’ve been establishing my **workflow** and exploring **early
 
 ### CT Images (Visible Human Project)
 
-![Axial CT slice showing bone mask threshold](/assets/ct-axial-bone-mask.png)
 
 ![Sagittal CT slice used for STL extraction](/assets/ct-sagittal-view.png)
 
