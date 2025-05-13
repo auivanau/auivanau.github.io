@@ -110,3 +110,15 @@ a:hover {
   margin-right: 0.25rem;
 }
 
+/* This was added to remove borders from home page projects */
+table td {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.project-table td {
+  border: none;
+  padding: 0;
+  background: none;
+}
