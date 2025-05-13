@@ -13,7 +13,7 @@ Welcome to the lab — Thanks for stopping by.
 
 ## Projects
 
-<table>
+<table class="project-table">
   <tr>
     <td style="text-align: center; vertical-align: top;">
       <a href="/phantom/">
@@ -23,6 +23,7 @@ Welcome to the lab — Thanks for stopping by.
     </td>
     <td style="text-align: center; vertical-align: top;">
       <a href="/oilsands/">
+        <img src="/assets/oilsands-lungs-overlay.png" alt="Oil Sands Public Health Overlay" width="320"><br>
         📚 <strong>Oil Sands Public Health Project</strong>
       </a>
     </td>
