@@ -17,13 +17,13 @@ Welcome to the lab — Thanks for stopping by.
   <tr>
     <td style="text-align: center; vertical-align: top;">
       <a href="/phantom/">
-        <img src="/assets/Split-Skull.png" alt="Prototype 2 Split Skull" width="320"><br>
+        <img src="/assets/PhantomCTIcon.png" alt="CT Scan to STL" width="320"><br>
         🧠 <strong>Enhanced Anthropomorphic Phantom</strong>
       </a>
     </td>
     <td style="text-align: center; vertical-align: top;">
       <a href="/oilsands/">
-        <img src="/assets/oilsands-lungs-overlay.png" alt="Oil Sands Public Health Overlay" width="320"><br>
+        <img src="/assets/LungsOilSandsIcon.png" alt="Oil Sands Public Health Overlay" width="320"><br>
         📚 <strong>Oil Sands Public Health Project</strong>
       </a>
     </td>
