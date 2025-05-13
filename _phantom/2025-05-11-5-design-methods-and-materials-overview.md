@@ -19,7 +19,7 @@ So far in Phase 2 I’ve been establishing my **workflow** and exploring **early
 
 
 ![Sagittal CT slice used for STL extraction](/assets/ct-sagittal-view.png)
-
+The green indicates which parts are "filtered out", based on a window of 236–2875 HU. So basically like a bone window in radiology.
 ---
 
 ## 2. Mesh Cleanup & Prototyping
