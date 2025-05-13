@@ -29,6 +29,14 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  
+collections:
+  phantom:
+    output: true
+    permalink: /phantom/:name/
+  oilsands:
+    output: true
+    permalink: /oilsands/:name/
 
 titles_from_headings:
   strip_title: true
