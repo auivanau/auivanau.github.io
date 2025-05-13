@@ -118,7 +118,10 @@ table td {
 }
 
 .project-table td {
-  border: none;
-  padding: 0;
-  background: none;
+  border: none !important;
+  padding: 0 !important;
+  background: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
+
