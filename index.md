@@ -17,7 +17,7 @@ Welcome to the lab — Thanks for stopping by.
   <tr>
     <td style="text-align: center; vertical-align: top;">
       <a href="/phantom/">
-        <img src="/assets/ct-sagittal-view.png" alt="Phantom Project CT Preview" width="320"><br>
+        <img src="/assets/Split-Skull.png" alt="Prototype 2 Split Skull" width="320"><br>
         🧠 <strong>Enhanced Anthropomorphic Phantom</strong>
       </a>
     </td>
