@@ -20,9 +20,8 @@ Welcome to the build log.
 
 ## Posts in this project
 
-{% assign phantom_posts = site.posts | where_exp: "post", "post.path contains '/phantom/'" %}
 <ul>
-{% for post in phantom_posts %}
+{% for post in site.phantom %}
   <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %e, %Y" }})</small></li>
 {% endfor %}
 </ul>
