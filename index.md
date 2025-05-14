@@ -17,14 +17,14 @@ Welcome to the lab — Thanks for stopping by.
     <a href="/phantom/">
       <img src="/assets/PhantomCTIcon.png" alt="CT Scan to STL"
            style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px;"><br>
-      🧠 <strong>Enhanced Anthropomorphic Phantom</strong>
+      <strong>Enhanced Anthropomorphic Phantom</strong>
     </a>
   </div>
   <div style="flex: 1 1 280px; max-width: 320px; text-align: center;">
     <a href="/oilsands/">
       <img src="/assets/LungsOilSandsIcon.png" alt="Oil Sands Public Health"
            style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px;"><br>
-      📚 <strong>Oil Sands Public Health Project</strong>
+      <strong>Oil Sands Public Health Project</strong>
     </a>
   </div>
 </div>
