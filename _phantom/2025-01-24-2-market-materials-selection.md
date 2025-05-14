@@ -6,7 +6,8 @@ categories: planning phantom market materials
 ---
 Before prototyping my own phantom, I surveyed two areas in parallel:
 1. **What’s on the market?**  
-2. **What materials best mimic bone, air, and soft tissue on CT?**  
+2. **What materials best mimic bone, air, and soft tissue on CT?**
+
 ---
 ## 1. Market Landscape
 
@@ -17,7 +18,9 @@ Before prototyping my own phantom, I surveyed two areas in parallel:
 | **DIY / Open-Source**  | OpenPhantom, academic builds                | < \$2 K       | Affordable, customizable, but variable HU  |
 
 > **Takeaway:** Commercial solutions excel in CT validation but cost an order of magnitude more than a DIY build. Dynamic (motion) phantoms are valuable but out of scope for my MVP.
+
 ---
+
 ## 2. Materials Selection
 I needed three radiological mimics:
 
