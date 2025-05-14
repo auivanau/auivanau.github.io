@@ -10,22 +10,21 @@ This blog is a digital lab notebook for my independent projects at the intersect
 
 Welcome to the lab — Thanks for stopping by.
 
-
 ## Projects
 
-<table class="project-table">
-  <tr>
-    <td style="text-align: center; vertical-align: top;">
-      <a href="/phantom/">
-        <img src="/assets/PhantomCTIcon.png" alt="CT Scan to STL" width="320"><br>
-        <strong>Enhanced Anthropomorphic Phantom</strong>
-      </a>
-    </td>
-    <td style="text-align: center; vertical-align: top;">
-      <a href="/oilsands/">
-        <img src="/assets/LungsOilSandsIcon.png" alt="Oil Sands Public Health Overlay" width="320"><br>
-        <strong>Oil Sands Public Health Project</strong>
-      </a>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 1rem;">
+  <div style="flex: 1 1 280px; max-width: 320px; text-align: center;">
+    <a href="/phantom/">
+      <img src="/assets/PhantomCTIcon.png" alt="CT Scan to STL"
+           style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px;"><br>
+      🧠 <strong>Enhanced Anthropomorphic Phantom</strong>
+    </a>
+  </div>
+  <div style="flex: 1 1 280px; max-width: 320px; text-align: center;">
+    <a href="/oilsands/">
+      <img src="/assets/LungsOilSandsIcon.png" alt="Oil Sands Public Health"
+           style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px;"><br>
+      📚 <strong>Oil Sands Public Health Project</strong>
+    </a>
+  </div>
+</div>
