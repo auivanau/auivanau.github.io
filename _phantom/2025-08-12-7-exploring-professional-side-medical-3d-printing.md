@@ -5,7 +5,7 @@ date: 2025-08-12
 categories: phantom
 ---
 
-## Introduction
+
 In my phantom project so far, I’ve been working with open-source tools, maker-space printers, and a DIY workflow that’s good for learning, experimentation, and cost control. But in the professional medical 3D printing world, there are dedicated systems designed from the ground up for clinical applications.  
 
 Recently, I learned that a former mentor is working with a combination that could be considered an industry standard: the **Stratasys J850 Digital Anatomy 3D Printer** paired with **Materialise Mimics Core** medical image segmentation software. This post explores what makes these tools special, and how they compare to my current approach.
