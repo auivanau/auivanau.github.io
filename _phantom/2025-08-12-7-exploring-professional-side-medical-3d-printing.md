@@ -23,6 +23,10 @@ The brochure also mentions several proprietary materials that I’ll need to inv
 
 This suggests that both the printing process and the material composition are tuned to model the porosity and texture of real bone.
 
+
+![Stratasys BoneMatrix example](/stratasys-j850-bone.png)
+*Look at those pores*
+
 [insert picture of Stratasys bone here]
 ### Overview
 - A multi-material PolyJet 3D printer designed for medical applications.
