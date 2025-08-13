@@ -27,7 +27,9 @@ This suggests that both the printing process and the material composition are tu
 ![Stratasys BoneMatrix example](/assets/stratasys-j850-bone.png)
 
 Look at those _pores_
-Here's a chatgpt summary of it:
+
+I asked Chatgpt (now 5o-released 5 days ago) for a quick summary: 
+
 ### Overview
 - A multi-material PolyJet 3D printer designed for medical applications.
 - Capable of printing anatomical models with varied material properties in a single print.
@@ -52,7 +54,6 @@ Here's a chatgpt summary of it:
 ![Materialise Mimics Core Software](/assets/mimics-core.png)
 *Image credit: Materialise official website*
 
-Another chatgpt summary of it:
 ### Overview
 - A specialized medical image segmentation platform designed for CT and MRI datasets.
 - Recognized as a leading tool in the industry for generating 3D printable anatomical models.
