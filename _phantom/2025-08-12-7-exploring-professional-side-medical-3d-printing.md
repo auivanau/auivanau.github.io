@@ -14,6 +14,9 @@ Recently, I learned that a former mentor is working with a combination that coul
 
 ## Stratasys J850 Digital Anatomy 3D Printer
 
+![Stratasys J850 Digital Anatomy Printer](/assets/stratasys-j850.png)
+*Image credit: Stratasys official website*
+
 ### Overview
 - A multi-material PolyJet 3D printer designed for medical applications.
 - Capable of printing anatomical models with varied material properties in a single print.
@@ -34,6 +37,9 @@ Recently, I learned that a former mentor is working with a combination that coul
 ---
 
 ## Materialise Mimics Core
+
+![Materialise Mimics Core Software](/assets/mimics-core.png)
+*Image credit: Materialise official website*
 
 ### Overview
 - A specialized medical image segmentation platform designed for CT and MRI datasets.
