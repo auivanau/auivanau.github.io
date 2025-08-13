@@ -11,6 +11,3 @@ That said, the technical issues still remain. The floating debris, discontinuiti
 Another interesting realization was around **file management**. I’ve been trying to keep everything organized with numbering systems in neatly sorted folders, but I’ve found that when I take a long break from the project, I lose track of exactly where I left off. Fortunately, with the help of GPT and this blog, I’ve been able to keep a clear record of my steps. It’s been surprisingly effective as a project management tool.  
 
 Lastly, I reached out to a former mentor and engineering professor to get their opinion and they are actually working on something quite similar now which is exciting. They mentioned they’ve worked on somewhat similar projects involving CT images and 3D printing. The software they used is called "Materialise Mimics Core", and use stratasys digital anatomy printer. Unfortunately for me, the Materialise Mimics Core is certainly not a free product. I'll request a free trial, and in the meantime see if I can print this as low cost as possible.
-
-
-
