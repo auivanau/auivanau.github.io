@@ -15,7 +15,15 @@ Recently, I learned that a former mentor is working with a combination that coul
 
 ![Stratasys J850 Digital Anatomy Printer](/assets/stratasys-j850.png)
 *Image credit: Stratasys official website*
+The Stratasys J850 printer is pretty fancy — and it comes with a slick brochure to match. It’s essentially a 3D printer capable of producing anatomical structures with fairly accurate mechanical properties (though I’m not sure about radiodensity yet).
 
+One particularly impressive feature is its ability to mimic vasculature, allowing arteries to move realistically as internal and external forces are applied. Apparently, the heart models can even provide realistic feedback while suturing or cutting.
+
+The brochure also mentions several proprietary materials that I’ll need to investigate further: GelMatrix, TissueMatrix, and BoneMatrix. Each is designed to replicate the mechanical properties of their native tissues. For example, BoneMatrix is described as: “Complex material depositing patterns mimic porous bone structures, fibrotic tissues, and ligaments.”
+
+This suggests that both the printing process and the material composition are tuned to model the porosity and texture of real bone.
+
+[insert picture of Stratasys bone here]
 ### Overview
 - A multi-material PolyJet 3D printer designed for medical applications.
 - Capable of printing anatomical models with varied material properties in a single print.
