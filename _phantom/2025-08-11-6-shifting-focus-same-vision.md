@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Shifting Focus, Same Vision"
+title: "6. Shifting Focus, Same Vision"
 date: 2025-08-11
 categories: phantom
 ---
