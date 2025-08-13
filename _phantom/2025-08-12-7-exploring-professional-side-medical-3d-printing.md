@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exploring the Professional Side of Medical 3D Printing"
+title: "7. Exploring the Professional Side of Medical 3D Printing"
 date: 2025-08-12
 categories: phantom
 ---
