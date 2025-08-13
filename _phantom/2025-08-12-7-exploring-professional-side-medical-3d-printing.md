@@ -24,10 +24,10 @@ The brochure also mentions several proprietary materials that I’ll need to inv
 This suggests that both the printing process and the material composition are tuned to model the porosity and texture of real bone.
 
 
-![Stratasys BoneMatrix example](/stratasys-j850-bone.png)
-*Look at those pores*
+![Stratasys BoneMatrix example](/assets/stratasys-j850-bone.png)
 
-[insert picture of Stratasys bone here]
+Look at those _pores_
+Here's a chatgpt summary of it:
 ### Overview
 - A multi-material PolyJet 3D printer designed for medical applications.
 - Capable of printing anatomical models with varied material properties in a single print.
@@ -52,6 +52,7 @@ This suggests that both the printing process and the material composition are tu
 ![Materialise Mimics Core Software](/assets/mimics-core.png)
 *Image credit: Materialise official website*
 
+Another chatgpt summary of it:
 ### Overview
 - A specialized medical image segmentation platform designed for CT and MRI datasets.
 - Recognized as a leading tool in the industry for generating 3D printable anatomical models.
