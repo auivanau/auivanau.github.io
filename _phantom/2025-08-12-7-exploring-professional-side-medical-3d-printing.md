@@ -28,7 +28,7 @@ This suggests that both the printing process and the material composition are tu
 
 Look at those _pores_
 
-I asked Chatgpt (now 5o-released 5 days ago) for a quick summary: 
+I asked ChatGPT (now 5o-released 5 days ago) for a quick summary: 
 
 ### Overview
 - A multi-material PolyJet 3D printer designed for medical applications.
