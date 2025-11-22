@@ -4,8 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-# About Me
-
 <img src="/assets/ivan-au-profile.png" alt="Ivan Au portrait" style="width:220px; border-radius: 6px; margin-bottom: 1.5rem;">
 
 Hi, I’m Ivan.
