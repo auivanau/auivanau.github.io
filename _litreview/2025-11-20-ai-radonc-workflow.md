@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Artificial Intelligence in Radiation Oncology: Impact on Workflow Efficiency (Next 5–10 Years)"
+title: "Artificial Intelligence in Radiation Oncology: Impact on Workflow Efficiency"
 date: 2025-11-20
 permalink: /litreview/2025/11/20/ai-radonc-workflow/
 categories: ai radonc litreview workflow
