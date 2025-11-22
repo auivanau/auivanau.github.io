@@ -1,10 +1,27 @@
 /* ===== Font System ===== */
 
+/* ===== Design Tokens (fonts, colors, sizing) ===== */
+
 :root {
+  /* Fonts */
   --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-title: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  /* Colors */
+  --bg-body: #020617;       /* page background (near-black navy) */
+  --bg-panel: #020617;      /* card/panel background */
+  --text-main: #E5E7EB;     /* main text */
+  --text-muted: #9CA3AF;    /* subtle text */
+  --accent-green: #4ADE80;  /* tagline / glow accents */
+  --accent-cyan: #22D3EE;   /* links / hover accents */
+
+  /* Layout */
+  --max-width: 980px;
+  --radius-card: 18px;
+  --border-soft: rgba(148, 163, 184, 0.35);
 }
+
 /* ===== Homepage – Experimental Workshop ===== */
 
 .home-hero {
