@@ -6,7 +6,26 @@ permalink: /litreview/2025/11/20/ai-radonc-workflow/
 categories: ai radonc litreview workflow
 ---
 
-As of November 20, 2025, I’ve been exploring how artificial intelligence is shaping radiation oncology—ironically, by using AI itself to help synthesize the rapidly evolving literature. It’s a bit meta: I even clicked the new “Deep Research” button to do it, and as the screenshot below shows, I now apparently have only 24 left to spend.
+# Preamble
+It's November 20, 2025. It's 7 days until CaRMs. I've procrastinated by seeing what info I could get from a simple prompt of asking chat gpt: "How will AI affect the practice of radiation oncology in the next 5 to 10 years?".
+
+It responded with the following:
+
+> To best answer your question, could you clarify what specific aspects of radiation oncology you're most interested in regarding AI's impact over the next 5 to 10 years? For example:
+>
+> 1. Clinical workflow efficiency (e.g., treatment planning, image segmentation)?
+> 2. Patient outcomes or personalized treatment?
+> 3. Diagnostic imaging and tumor delineation?
+> 4. Ethical or regulatory considerations?
+> 5. Role of AI in education or training for radiation oncologists?
+>
+> Let me know so I can tailor the research accordingly.
+
+So, I was curious about **Clinical Workflow Efficiency**.
+
+It responded with q fairly well researched list with 10 references, up to date to 2025. So I read through the response, added some diagrams, dug a little deeper in to some other topics to provide examples, and present it here:
+
+
 
 <p class="post-figure">
   <img 
@@ -18,7 +37,13 @@ As of November 20, 2025, I’ve been exploring how artificial intelligence is sh
   </span>
 </p>
 
-The same technology transforming our field is also transforming how we learn about it. Radiation oncology, with its imaging-driven and protocolized workflows, is uniquely positioned to capture the gains AI offers. Right now, AI is already reshaping contouring, planning, adaptive radiotherapy, quality assurance, and clinical decision support. The state of the art today makes it clear that AI isn’t replacing clinicians—it’s giving us more room to focus on complex decisions, adaptive strategies, and the human side of cancer care.
+# Introduction
+
+Artificial intelligence (AI) is poised to significantly streamline the radiation oncology workflow in the coming 5–10 years. From automating labor-intensive tasks to enhancing decision-making, AI tools are being integrated across the treatment spectrum. The goals are clear: reduce the time clinicians spend on routine processes, improve consistency (e.g. in contouring and planning), and allow radiation oncologists to focus more on complex clinical decisions
+oncodaily.com
+. Recent developments have already demonstrated notable efficiency gains without compromising quality
+nice.org.uk
+. Below, we explore key areas where AI is impacting clinical workflow efficiency – including treatment planning, image segmentation, quality assurance, decision support, and overall integration into practice – along with specific technologies, expected benefits, implementation challenges, and early case study outcomes.
 
 
 ---
