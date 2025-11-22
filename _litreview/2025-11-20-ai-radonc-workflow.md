@@ -215,7 +215,6 @@ In conclusion, artificial intelligence is expected to greatly improve clinical w
 
 ## Personal Thoughts
 You know, when I'm walking around with ChatGPT I'm not really cognizant of its minor improvements every day. But there are. This query only took ~10 minutes of time in deep research. I think if i had to do this manually it might take me at least 40 hours of work of solid focused reading and writing. This work is INCREDIBLY more detailed than the type of reports I asked for even 8 months ago. I'm terrifically curious of how good AI will be in 5 years, let alone how it will be in 10 years. 
----
 
 ## Sources
 
