@@ -21,6 +21,83 @@
   --radius-card: 18px;
   --border-soft: rgba(148, 163, 184, 0.35);
 }
+/* ===== Global layout & typography ===== */
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background:
+    radial-gradient(circle at top, #0F172A 0, #020617 55%),
+    #020617;
+  color: var(--text-main);
+}
+
+.site-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-main {
+  flex: 1;
+  padding: 2.5rem 0 3rem;
+}
+
+/* Basic link styling */
+a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header / nav */
+.site-header {
+  background: #020617;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.site-header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.6rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-title {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+.site-nav a {
+  margin-left: 1.1rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.site-nav a:hover {
+  color: var(--accent-cyan);
+}
+
+/* Footer */
+.site-footer {
+  background: #020617;
+  border-top: 1px solid var(--border-soft);
+}
+
+.site-footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.9rem 1.5rem 1.3rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
 
 /* ===== Homepage – Experimental Workshop ===== */
 
