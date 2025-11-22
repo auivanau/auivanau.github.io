@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI’s Impact on Radiation Oncology — A 2025 Deep Dive"
+title: "AI’s Impact on Radiotherapy Planning — A 2025 View"
 date: 2025-11-20
 permalink: /litreview/2025/11/20/ai-radonc-workflow/
 categories: ai radonc litreview workflow
@@ -291,30 +291,15 @@ Challenges remain in safely integrating AI:
 
 ---
 
-# 8. The Future of AI in Radiation Oncology (5-10 Years)
+# 8. The Future of AI in Radiation Oncology
 
-AI will become deeply embedded in all stages of the workflow:
+As these multiple centers are dipping their toes into the world of AI-assisted radiation planning, it seems inevitable that we’re heading toward a transformational shift in terms of saved time for both the radiation oncologist and the patient. This feels especially pertinent as the baby boomer generation ages and our demographics shift toward a population in which cancer incidence will only continue to rise as people live longer.
 
-**Simulation → Contouring → Planning → Adaptive → QA → Documentation → Survivorship**
+The role of the radiation oncologist in 10 years is extremely hard to predict. It feels like a matter of when, not if, contouring becomes somewhat of a lost art.
 
-Expected shifts:
+That said, I’m optimistic that AI will ultimately enhance the role of the radiation oncologist. Ideally, it means more time for laying of hands, more face-to-face connection with patients, more time for teaching, and more time to study the weird and wonderful zebras that cross our path.
 
-- Auto-contouring becomes standard for most OARs  
-- Most initial plans auto-generated with minor human edits  
-- Daily ART becomes routine across multiple sites  
-- Predictive QA is widespread  
-- Radiomics-based models assist in tumour boards and planning discussions  
-- LLMs assist with documentation, triage, and report generation  
-
-## Clinicians Are Not Replaced—They Are Augmented
-
-AI elevates the role of the radiation oncologist:
-
-- More time for complex decision-making  
-- More focus on goals-of-care conversations  
-- Oversight of adaptive workflows  
-- Leadership in multidisciplinary care  
-- Emphasis on personalized oncology strategies  
+On a tangential note: this was a very interesting experience using ChatGPT for this research. I used ChatGPT-5.1 with a combination of “thinking mode” and “deep research mode.” I turned deep research on and it finished in about 10 minutes. I can’t help but wonder what this technology might be capable of in 5–10 years.
 
 ---
 
