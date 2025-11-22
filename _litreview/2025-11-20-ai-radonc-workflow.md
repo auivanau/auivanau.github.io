@@ -6,7 +6,7 @@ permalink: /litreview/2025/11/20/ai-radonc-workflow/
 categories: ai radonc litreview workflow
 ---
 
-## Artificial Intelligence in Radiation Oncology: Impact on Workflow Efficiency (Next 5–10 Years)
+## Artificial Intelligence in Radiation Oncology: Impact on Workflow Efficiency
 
 
 It's November 20, 2025. It's 7 days until CaRMs. I've procrastinated by seeing what info I could get from a simple prompt of asking ChatGPT 5.1: "How will AI affect the practice of radiation oncology in the next 5 to 10 years?".
