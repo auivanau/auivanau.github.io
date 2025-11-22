@@ -1,30 +1,43 @@
 ---
-layout: page
-title: Home
-permalink: /
+layout: default
+title: "Home"
 ---
-### Welcome
 
-I'm Ivan Au — a medical student with a background in materials engineering and a long-standing interest in emerging technologies. Early in my career, I was lucky enough to do a short research internship in nanomaterials in Germany. After returning to Canada, I spent several years working in Alberta’s energy sector, including roles in the oil sands and pipeline systems. That experience gave me a ground-level view of industrial health, safety systems, and environmental risk — and continues to inform my current work in medicine and public health.
-This blog is a digital lab notebook for my independent projects at the intersection of **engineering**, **medicine**, and **population health**. I use it to document workflows, share design ideas, and reflect on the technical and societal questions I’m exploring.
+<section class="home-hero">
+  <div class="home-hero-inner">
+    <div class="home-hero-text">
+      <span class="badge">Experimental Workshop</span>
+      <h1 class="home-hero-title">The Lab</h1>
 
-Welcome to the lab — Thanks for stopping by.
+      <p class="home-hero-tagline">Experiment With Everything.</p>
+      <p class="home-hero-subtitle">Where ideas get stress-tested.</p>
+
+      <p class="home-hero-body">
+        Welcome to my digital lab — a space shaped by curiosity and experimentation.
+        This is where I prototype concepts, stress-test workflows, play with AI tools,
+        and break down complex problems the same way you’d approach an experiment:
+        build something, test it, learn from it, iterate.
+      </p>
+
+      <p class="home-hero-body">
+        Some posts are structured deep dives. Others are half-finished experiments,
+        long-form notes, or ideas in progress. The goal isn’t perfection — it’s
+        discovery. If you’re interested in AI, creative problem-solving, or how
+        hands-on experimentation can shape clinical thinking, you’ll feel at home here.
+      </p>
+    </div>
+
+    <div class="home-hero-visual">
+      <div class="home-hero-fallback">
+        <div class="home-hero-ring"></div>
+        <div class="home-hero-core"></div>
+        <div class="home-hero-grid"></div>
+      </div>
+      <p class="home-hero-caption">
+        CT slices, beamlines, and sketches &mdash; the visual language of the Lab.
+      </p>
+    </div>
+  </div>
+</section>
 
 ## Projects
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 1rem;">
-  <div style="flex: 1 1 280px; max-width: 320px; text-align: center;">
-    <a href="/phantom/">
-      <img src="/assets/PhantomCTIcon.png" alt="CT Scan to STL"
-           style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px;"><br>
-      <strong>Enhanced Anthropomorphic Phantom</strong>
-    </a>
-  </div>
-  <div style="flex: 1 1 280px; max-width: 320px; text-align: center;">
-    <a href="/oilsands/">
-      <img src="/assets/LungsOilSandsIcon.png" alt="Oil Sands Public Health"
-           style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px;"><br>
-      <strong>Oil Sands Public Health Project</strong>
-    </a>
-  </div>
-</div>

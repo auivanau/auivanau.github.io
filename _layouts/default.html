@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      {% if page.title %}{{ page.title }} · {% endif %}{{ site.title | default: "Ivan Au" }}
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fonts: adjust if you load them differently -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body class="site-body">
+    <div class="site-root">
+
+      <header class="site-header">
+        <div class="site-header-inner">
+          <a class="site-title" href="{{ '/' | relative_url }}">
+            {{ site.title | default: "Ivan Au" }}
+          </a>
+          <nav class="site-nav">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/litreview/' | relative_url }}">Lit Review</a>
+            <!-- Add other key sections as needed -->
+          </nav>
+        </div>
+      </header>
+
+      <main class="site-main">
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer-inner">
+          <p>© {{ site.time | date: '%Y' }} {{ site.author | default: 'Ivan Au' }} · Experimental Workshop</p>
+        </div>
+      </footer>
+
+    </div>
+  </body>
+</html>
