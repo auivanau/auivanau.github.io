@@ -48,12 +48,24 @@ The Google Health–Mayo Clinic collaboration showed that AI-generated head and 
   </span>
 </p>
 
-## Key Commercial Tools
+### Key Commercial Tools (What They Actually Do)
 
-- Mirada DLCExpert — https://mirada-medical.com  
-- RadFormation AutoContour — https://radformation.com/autocontour  
-- RayStation DL Segmentation — https://raysearchlabs.com  
-- Siemens AI-Rad Companion — https://www.siemens-healthineers.com/ai-rad-companion
+**Mirada DLCExpert**  
+A deep-learning contouring platform that automatically segments organs-at-risk and targets on CT/MR. Vendor-neutral and integrates with most planning systems.  
+<small>([mirada-medical.com](https://mirada-medical.com))</small>
+
+**RadFormation – AutoContour**  
+A contouring assistant tightly integrated into clinical planning workflows. Produces auto-segmented OARs and nodal levels, designed to save planner time and improve consistency.  
+<small>([radformation.com/autocontour](https://radformation.com/autocontour))</small>
+
+**RayStation – DL Segmentation**  
+Built directly into the RayStation TPS. Uses deep learning to generate fast, consistent OAR and target structures in a native environment.  
+<small>([raysearchlabs.com](https://raysearchlabs.com))</small>
+
+**Siemens – AI-Rad Companion**  
+An AI assistant embedded in diagnostic imaging workflows, generating automated segmentations and quantitative reports that support RT planning.  
+<small>([siemens-healthineers.com/ai-rad-companion](https://www.siemens-healthineers.com/ai-rad-companion))</small>
+
 
 ## Regulatory Support
 
