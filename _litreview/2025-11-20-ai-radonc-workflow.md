@@ -216,7 +216,7 @@ This feels like a fairly overview of the landscape of AI on rad onc. It does see
 
 This query only took ~10 minutes of time in deep research. I think if i had to do this manually it might take me at least 40 hours of work of solid focused reading and writing. This work is INCREDIBLY more detailed than the type of reports I asked for even 8 months ago. 
 
-You know, when I'm walking around with ChatGPT in my pocket, I'm not really cognizant of its minor improvements every day. But there are, and improvements scale upon on each other like compoound interest. Let's take a random number. Say 0.1%. Let's say AI improves by 0.1% per day, on average. Let's say we use the formula (1.001)^(365*10), then in 10 years, it would be <b>38</b>  times more powerful. Maybe that growth is unsustainable, who knows? But if you asked me if I thought this could be done 5 years ago, I wouldn't have believed it. So I believe the future will truly be unbelieveable.
+You know, when I'm walking around with ChatGPT in my pocket, I'm not really cognizant of the minor improvements every day. But there are. And these improvements scale upon on each other like compoound interest. Let's hypothesize that AI improves — I'm not going to dig in to the details of what defines "improve", let's just say in all domains it "improves" — by 0.1% per day. Let's say we use the compound interest formula: (1.001)^(365*10), then in 10 years, it would be <b>38</b>  times more powerful. Maybe that growth is unsustainable, who knows? But if you asked me if I thought this could be done 5 years ago, I wouldn't have believed it.
 
 ## Sources
 
