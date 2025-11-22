@@ -23,9 +23,7 @@ It responded with the following:
 >
 > Let me know so I can tailor the research accordingly.
 
-I picked **Clinical Workflow Efficiency**, Curious to see what how AI would perform. I expected maybe a page or two like a brief wikipedia article. But I was seriously blown away.
-
-Here we go:
+I picked **Clinical Workflow Efficiency**, Curious to see what how AI would perform. I expected maybe a page or two like a brief wikipedia article. But I was seriously blown away. My final thoughts on this review are at the end.
 
 ## Introduction
 
