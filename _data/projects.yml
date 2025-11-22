@@ -18,3 +18,25 @@
   img: "/assets/A_digital_vector_illustration_features_a_stylized_.png"
   order: 3
   featured: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- id: about
+  title: "About Me"
+  url: "/about/"
+  img: "/assets/ivan-au-profile.png"
+  order: 999
+  featured: true
