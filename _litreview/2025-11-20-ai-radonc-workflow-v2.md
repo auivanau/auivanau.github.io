@@ -18,6 +18,8 @@ As of November 20, 2025, I’ve been exploring how artificial intelligence is sh
 </p>
 
 The same technology transforming our field is also transforming how we learn about it. Radiation oncology, with its imaging-driven and protocolized workflows, is uniquely positioned to capture the gains AI offers. Right now, AI is already reshaping contouring, planning, adaptive radiotherapy, quality assurance, and clinical decision support. The state of the art today makes it clear that AI isn’t replacing clinicians—it’s giving us more room to focus on complex decisions, adaptive strategies, and the human side of cancer care.
+
+
 ---
 
 # 1. Auto-Segmentation: The First Wave of AI Impact
