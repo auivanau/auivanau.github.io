@@ -120,31 +120,86 @@ ProKnow isn’t a planner—it's an analytics and benchmarking platform. It aggr
 
 
 AI-assisted planning reduces planner-specific variability, shortens optimization time, and increases consistency—especially in high-volume centres and multi-planner environments. These systems help standardize quality, improve throughput, and shift planners’ time from repetitive manual tuning to higher-level decision-making and review.
-
+<figure>
+  <img
+    src="/assets/xiao-ai-vmat-workflow.png"
+    alt="Deep-learning-based automated VMAT planning workflow showing dose prediction from structures followed by conversion to a deliverable treatment plan."
+    loading="lazy"
+  >
+  <figcaption>
+    Deep learning-based automated VMAT planning workflow (RatoGuide concept) for whole pelvic radiation in gynecologic cancer. Adapted from Xiao et al., <em>Scientific Reports</em> 2025;15:15219, Evaluation of deliverable artificial intelligence-based automated volumetric arc radiation therapy planning for whole pelvic radiation in gynecologic cancer, CC BY 4.0.
+  </figcaption>
+</figure>
 ---
 
-# 3. Adaptive Radiotherapy (ART): The Most Transformative Domain
+### 3. Adaptive Radiotherapy (ART): The Most Transformative Domain
 
-Daily adaptive radiotherapy used to be logistically unrealistic due to the need for re-contouring, re-planning, and QA on the same day. AI now makes this feasible.
+Daily adaptive radiotherapy used to be logistically unrealistic. To genuinely adapt a plan to the patient’s anatomy each day, the team would need to:
 
-Platforms such as **Varian Ethos** perform:
+- Re-contour targets and organs-at-risk  
+- Re-optimize the treatment plan  
+- Re-run at least basic QA checks  
 
-- Automated re-contouring  
-- Automated re-optimization  
-- Automated QA consistency checks  
+—all within a single treatment slot, while the patient is on the couch. In a manual workflow, that would consume hours.
+<figure>
+  <img
+    src="/assets/liu-igrt-vs-art.png"
+    alt="Side-by-side comparison of conventional IGRT workflow versus cone-beam CT-based online adaptive radiotherapy workflow."
+    loading="lazy"
+  >
+  <figcaption>
+    Workflow comparison between conventional IGRT and cone-beam CT-based online adaptive radiotherapy. Reproduced from Liu et al., <em>Radiation Oncology</em> 2023;18:144, Review of cone beam computed tomography based online adaptive radiotherapy: current trend and future direction, CC BY 4.0.
+  </figcaption>
+</figure>
 
-All during a **15–20 minute** daily treatment slot.
+AI is what has made “daily ART” clinically realistic.
 
-A 2024 multi-institutional series demonstrated that daily ART is **clinically feasible across multiple disease sites** without increasing treatment slot duration  
-([Barragán Montero et al., 2024](https://pubmed.ncbi.nlm.nih.gov/39600212/)).
+Modern adaptive platforms such as **Varian Ethos** now:
 
-AI-driven ART is expanding to:
+- **Auto-re-contour** targets and OARs on the daily CBCT or MRI using deep-learning segmentation  
+- **Auto-re-optimize** the plan in minutes using pre-defined physician intent (target coverage / OAR sparing priorities)  
+- **Run automated QA and consistency checks**, flagging plans that deviate from institutional constraints  
+<figure>
+  <img
+    src="/assets/mars-oart-workflow.png"
+    alt="Workflow diagram showing CBCT-guided daily online adaptive radiotherapy with shuttle-based MRI guidance using the MARS system on Varian Ethos."
+    loading="lazy"
+  >
+  <figcaption>
+    CBCT-guided daily online adaptive radiotherapy workflow with shuttle-based MR guidance (MARS system). Adapted from Kim et al., <em>Cancers</em> 2024;16(6):1210, Clinical Workflow of Cone Beam Computer Tomography-Based Daily Online Adaptive Radiotherapy with Offline Magnetic Resonance Guidance: The Modular Adaptive Radiotherapy System (MARS), CC BY 4.0.
+  </figcaption>
+</figure>
 
-- Prostate  
-- Bladder  
-- Gynecologic tumours  
-- Pancreas  
-- Spine and oligometastatic disease  
+All of this is designed to happen within a typical **15–20 minute** treatment slot, turning what used to be a one-off “special project” into a repeatable daily workflow.
+
+A 2024 multi-institutional series showed that daily ART is clinically feasible across multiple disease sites **without prolonging treatment slot duration**, while maintaining plan quality and respecting normal tissue constraints  
+(Barragán Montero et al., 2024).
+
+#### Why AI-Driven ART Matters Clinically
+
+AI-enabled ART doesn’t just make things faster—it changes what is possible:
+
+- **Accounts for day-to-day anatomy**  
+  Bladder filling, rectal gas, bowel position, tumour shrinkage, and weight loss can all substantially alter dose distributions. Daily adaptation lets you re-align the plan to “today’s anatomy” rather than relying on generous margins.
+
+- **Reduces the need for large PTV margins**  
+  By correcting for setup and anatomical variation on the fly, ART can support tighter margins in appropriately selected patients, potentially reducing OAR doses.
+
+- **Supports dose escalation and complex geometries**  
+  Sites with close proximity of target and critical structures (e.g., prostate near rectum, pancreas near duodenum) stand to benefit most when daily plans are tailored to actual anatomy.
+
+#### Disease Sites Where AI-Driven ART Is Growing
+
+AI-driven ART is now moving from single-centre “enthusiast” use to broader clinical deployment in:
+
+- **Prostate** – managing variable bladder/rectum filling and interfraction motion while maintaining consistent coverage  
+- **Bladder** – accommodating extreme shape and volume changes that historically forced very generous margins  
+- **Gynecologic tumours** – adapting to changes in uterine/cervical position and post-EBRT anatomical evolution  
+- **Pancreas** – handling proximity to stomach, duodenum, and small bowel, where daily OAR position is highly variable  
+- **Spine and oligometastatic disease** – refining highly conformal plans around the cord and other critical structures, especially in hypofractionated/SBRT settings  
+
+As AI tools for auto-contouring, plan optimization, and automated QA continue to mature, daily ART is likely to expand to additional disease sites and fractionation schemes, gradually shifting the standard from “plan once, treat many” to “plan smart, adapt often.”
+
 
 ---
 
