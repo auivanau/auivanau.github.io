@@ -85,6 +85,10 @@ AI-based planning—including knowledge-based planning (KBP) and deep-learning I
 A 2024 multi-site analysis showed that deep-learning planning achieved **expert-level dose distributions** with **<10% manual modification time**, across prostate, breast, and head/neck cases  
 ([Ono et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38928254/)).
 
+These advances have shifted AI from theoretical potential to practical, day-to-day clinical utility. Instead of replacing the planner, AI systems now support them by generating high-quality starting points, guiding achievable trade-offs, and standardizing plan quality across teams. As vendors have begun embedding deep-learning and knowledge-based optimization engines directly into treatment planning systems, AI-driven planning has moved from niche pilots to widely deployed commercial platforms in high-volume centres.
+
+With this growing maturity, several systems now lead the field in deploying AI directly within the planning environment, each taking a distinct approach to automation, dose prediction, and quality assurance.
+
 ## Illustration of AI-Enabled Planning Workflow
 
 <p class="post-figure">
@@ -99,13 +103,23 @@ A 2024 multi-site analysis showed that deep-learning planning achieved **expert-
 
 ## Leading AI Planning Platforms
 
-- Varian Ethos AI planner  
-- RayStation deep learning planning  
-- Elekta ML-assisted planning  
-- Oncospace KBP  
-- ProKnow planning analytics
+**Varian Ethos – AI-Driven Adaptive Planner**  
+Ethos uses Varian’s “Intelligent Optimization Engine” (IOE), which combines rule-based objectives with machine-learned behaviour derived from high-quality reference plans. In its adaptive workflow, Ethos re-optimizes plans on the daily CBCT, automatically adjusting dose distributions in real time while maintaining physician-approved target/OAR priorities. This provides consistent plan quality, reduces inter-planner variation, and supports high-throughput adaptive radiotherapy for sites like pelvis, abdomen, and lung.
 
-AI planning reduces planner-specific variability and accelerates planning in high-volume centres.
+**RayStation – Deep Learning Planning (DLP)**  
+RaySearch extends its deep-learning ecosystem from segmentation to planning. Models are trained on large institutional datasets to predict voxel-level dose distributions based on CT + contours + clinical protocols. The predicted dose is then converted into a deliverable plan via inverse optimization. DLP reduces the “trial-and-error” tuning typical of VMAT optimization, generating high-quality plans rapidly and with less planner-specific bias. It’s especially useful for centres with diverse planning staff or complex sites requiring high consistency.
+
+**Elekta – ML-Assisted Planning (MLAP)**  
+Elekta’s MLAP uses machine-learning–derived objective weightings and priorities seeded from large databases of curated, high-quality plans. Instead of starting with generic templates, planners begin with model-guided objectives tailored to the patient’s anatomy. This reduces the number of optimization iterations, makes results more reproducible, and aligns plan quality with institutional best practice. MLAP integrates directly into Monaco, preserving Monte Carlo accuracy while cutting time spent on manual objective tuning.
+
+**Oncospace – Knowledge-Based Planning (KBP)**  
+Oncospace uses statistical modelling built from historical clinical plans—structure geometry, delivered dose, and achieved clinical endpoints. It predicts achievable DVHs for a new patient based on similarity to prior cases. Planners can then compare ongoing optimization runs to these predicted “achievability envelopes,” guiding them toward plans that reflect real-world performance. KBP helps identify when a plan is suboptimal, when tradeoffs are clinically reasonable, or when deviations suggest anatomy-driven limitations.
+
+**ProKnow – Planning Analytics and Benchmarking**  
+ProKnow isn’t a planner—it's an analytics and benchmarking platform. It aggregates thousands of plans across institutions, allowing planners to evaluate plan quality against cohort-level metrics, national benchmarks, or internal gold standards. Tools include DVH analytics, contour quality checks, and comparison dashboards. When paired with AI/KBP systems, ProKnow validates whether generated plans meet institutional standards and helps drive continuous quality improvement across sites and planners.
+
+
+AI-assisted planning reduces planner-specific variability, shortens optimization time, and increases consistency—especially in high-volume centres and multi-planner environments. These systems help standardize quality, improve throughput, and shift planners’ time from repetitive manual tuning to higher-level decision-making and review.
 
 ---
 
