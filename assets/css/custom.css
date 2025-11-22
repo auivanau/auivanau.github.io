@@ -125,3 +125,9 @@ table td {
   box-shadow: none !important;
 }
 
+@media (max-width: 768px) {
+  #dark-mode-toggle {
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
