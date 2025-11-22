@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Oil Sands Public Health Project
+title: Alberta Oil Sands - Respiratory Health
 permalink: /oilsands/
 ---
 
