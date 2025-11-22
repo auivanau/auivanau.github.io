@@ -23,7 +23,7 @@ It responded with the following:
 >
 > Let me know so I can tailor the research accordingly.
 
-I picked **Clinical Workflow Efficiency**, Curious to see what ChatGPT would spit out. I expected maybe a page or two like a brief wikipedia article. But I was seriously blown away.
+I picked **Clinical Workflow Efficiency**, Curious to see what how AI would perform. I expected maybe a page or two like a brief wikipedia article. But I was seriously blown away.
 
 Here we go:
 
