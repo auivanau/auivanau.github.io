@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "How Artificial Intelligence Will Transform Clinical Workflow Efficiency in Radiation Oncology Over the Next Decade (Enhanced Edition)"
+title: "AI’s Impact on Radiation Oncology — A 2025 Deep Dive"
 date: 2025-11-20
+permalink: /litreview/2025/11/20/ai-radonc-workflow/
 categories: ai radonc litreview workflow
 ---
 
