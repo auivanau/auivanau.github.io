@@ -1,0 +1,20 @@
+- id: phantom
+  title: "Enhanced Anthropomorphic Phantom"
+  url: "/phantom/"
+  img: "/assets/PhantomCTIcon.png"
+  order: 1
+  featured: true
+
+- id: oilsands
+  title: "Oil Sands Public Health Project"
+  url: "/oilsands/"
+  img: "/assets/oilsands-lungs-overlay.png"
+  order: 2
+  featured: true
+
+- id: ai-radonc
+  title: "AI’s Impact on Radiation Oncology — A 2025 Deep Dive"
+  url: "/litreview/2025/11/20/ai-radonc-workflow-v2.html"
+  img: "/assets/A_digital_vector_illustration_features_a_stylized_.png"
+  order: 3
+  featured: true
