@@ -6,9 +6,7 @@ permalink: /
 
 ### Welcome
 
-This site is my working notebook for projects and ideas across medicine, engineering, design, and AI. I document builds, workflows, experiments, and technical notes — essentially whatever I’m learning or exploring at the time.
-
-It’s a broad space by design, shaped by curiosity.
+My working notebook for projects and ideas across medicine, engineering, design, and AI.
 
 ## Projects
 
