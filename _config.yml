@@ -37,6 +37,10 @@ collections:
   oilsands:
     output: true
     permalink: /oilsands/:name/
+  litreview:
+    output: true
+    permalink: /litreview/:path/
+  
 
 titles_from_headings:
   strip_title: true
