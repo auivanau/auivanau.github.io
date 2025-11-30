@@ -15,7 +15,9 @@ My working notebook for projects and ideas across medicine, engineering, design,
     {% assign featured_projects = site.data.projects | where: "featured", true | sort: "order" %}
     {% for project in featured_projects %}
       <a class="project-tile" href="{{ project.url | relative_url }}">
-        <img src="{{ project.img | relative_url }}" alt="{{ project.title }}">
+        <div class="project-tile-image-wrapper">
+          <img src="{{ project.img | relative_url }}" alt="{{ project.title }}">
+        </div>
         <div class="project-tile-text">
           <h3>{{ project.title }}</h3>
           {% if project.blurb %}
@@ -31,15 +33,19 @@ My working notebook for projects and ideas across medicine, engineering, design,
 
 <div class="home-litreviews">
   {% assign lit_posts = site.litreview | sort: "date" | reverse %}
-  {% for post in lit_posts limit:3 %}
+  {% for post in lit_posts limit:4 %}
     <article class="home-lit-card">
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p class="home-lit-meta">{{ post.date | date: "%b %d, %Y" }}</p>
+      <h3 class="home-lit-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+      <p class="home-lit-meta">
+        {{ post.date | date: "%b %d, %Y" }}
+      </p>
       <p class="home-lit-excerpt">
         {% if post.summary %}
           {{ post.summary }}
         {% else %}
-          {{ post.excerpt | strip_html | truncate: 180 }}
+          {{ post.excerpt | strip_html | truncate: 200 }}
         {% endif %}
       </p>
     </article>
