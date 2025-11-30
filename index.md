@@ -4,6 +4,15 @@ title: Home
 permalink: /
 ---
 
+<style>
+  /* Hide the automatic page title on the homepage only */
+  h1.page-title,
+  h1.post-title,
+  h1:first-of-type {
+    display: none !important;
+  }
+</style>
+
 ### Welcome
 
 My working notebook for projects and ideas across medicine, engineering, design, and AI.
