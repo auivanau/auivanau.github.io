@@ -4,7 +4,7 @@ title: "Wait Times from Lumpectomy to Adjuvant Radiotherapy in Canada (Alberta &
 date: 2025-11-29
 permalink: /litreview/2025/11/29/wait-times-lumpectomy-rt/
 categories: litreview oncology healthsystems
-thumbnail: /assets/img/litreview-wait-times.jpg
+thumbnail: /assets/litreview-wait-times.png
 summary: "Deep dive into Canadian and provincial data on time from lumpectomy to adjuvant radiotherapy, with a focus on Alberta and British Columbia."
 ---
 
