@@ -14,7 +14,7 @@ summary: "Deep dive into Canadian and provincial data on time from lumpectomy to
 
 Timeliness in initiating adjuvant radiotherapy (RT) following breast-conserving surgery (BCS) is a critical determinant of oncologic quality and health-system performance. For early-stage breast cancer patients who do not receive chemotherapy, clinical guidelines universally recommend initiation of RT within **6–12 weeks** after lumpectomy. Delays beyond this window are associated with progressively higher risks of local recurrence and, in extreme cases, inferior survival outcomes. 
 
-Despite substantial investments in radiotherapy infrastructure nationwide, recent observations—particularly in **Alberta**—suggest that many patients are beginning adjuvant RT **16–17 weeks** after surgery, substantially outside guideline boundaries. Conversely, **British Columbia**, which experienced a severe capacity crisis in 2022–2023, has since undergone a major system recovery.
+Despite substantial investments in radiotherapy infrastructure nationwide, my anecdotal observations, suggest that some patients are beginning adjuvant RT **16–17 weeks** after surgery, substantially outside guideline boundaries. Conversely, **British Columbia**, which experienced a severe capacity crisis in 2022–2023, has since undergone a major system recovery.
 
 This analysis synthesizes guideline evidence, pathway timing data, and provincial operational performance to evaluate whether prolonged lumpectomy-to-RT intervals represent isolated outliers or a broader structural issue within Canadian cancer systems.
 
