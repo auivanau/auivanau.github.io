@@ -1,24 +1,42 @@
 ---
-layout: page
-title: "Literature Review"
+layout: default
+title: Literature Review
 permalink: /litreview/
 ---
 
-# Literature Review
+<h1>Literature Review</h1>
+<p>These are my longer-form literature reviews and deep dives.</p>
 
-These are my longer-form literature reviews and deep dives.
+<div class="litreview-list">
+  {% assign lit_posts = site.litreview | sort: "date" | reverse %}
+  {% for post in lit_posts %}
+    <article class="litreview-card">
+      <a class="litreview-thumb" href="{{ post.url | relative_url }}">
+        {% if post.thumbnail %}
+          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }} thumbnail">
+        {% else %}
+          <div class="litreview-thumb-placeholder">
+            <span>LR</span>
+          </div>
+        {% endif %}
+      </a>
 
-<ul class="post-list">
-  {% assign posts = site.litreview | sort: "date" | reverse %}
-  {% for post in posts %}
-    <li class="post-list-item">
-      <h3>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-      </h3>
-      {% if post.excerpt %}
-        <p>{{ post.excerpt }}</p>
-      {% endif %}
-    </li>
+      <div class="litreview-content">
+        <h2 class="litreview-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <p class="litreview-meta">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </p>
+        <p class="litreview-excerpt">
+          {% if post.summary %}
+            {{ post.summary }}
+          {% else %}
+            {{ post.excerpt | strip_html | truncate: 220 }}
+          {% endif %}
+        </p>
+        <a class="litreview-readmore" href="{{ post.url | relative_url }}">Read full review →</a>
+      </div>
+    </article>
   {% endfor %}
-</ul>
+</div>
