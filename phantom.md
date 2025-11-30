@@ -4,8 +4,6 @@ title: Enhanced Anthropomorphic Phantom
 permalink: /phantom/
 ---
 
-# Enhanced Anthropomorphic Phantom
-
 **Goal:** Create a realistic 3D-printed skull model for radiation oncology quality assurance (QA).
 
 I completed my undergrad in Materials Engineering back in 2016 and spent about six years working in industry before returning to med school. While studying medicine, I found myself missing the hands-on, technical, nerdy stuff I enjoyed in engineering. So I decided to take on a side project that blends both worlds — something with roots in engineering but useful for medicine, especially fields like radiation oncology, radiology, surgery, or med-ed.
