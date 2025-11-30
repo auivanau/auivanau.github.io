@@ -266,3 +266,114 @@ body.theme-light .litreview-readmore {
     height: 180px;
   }
 }
+
+/* === Featured Projects grid === */
+
+.projects-section {
+  margin-bottom: 3rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  background: #171717;
+  border-radius: 12px;
+  padding: 1rem;
+  text-decoration: none;
+  border: 1px solid #262626;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.project-tile-image-wrapper {
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.project-tile img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.project-tile-text h3 {
+  margin: 0 0 0.35rem;
+}
+
+.project-tile-text p {
+  margin: 0;
+  color: #a3a3a3;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.project-tile:hover {
+  transform: translateY(-2px);
+  border-color: #3b82f6;
+  background-color: #111827;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.45);
+}
+
+/* === Latest Literature Reviews & Deep Dives === */
+
+.home-litreviews {
+  margin-top: 2rem;
+}
+
+.home-lit-card {
+  padding: 1rem 0;
+  border-bottom: 1px solid #262626;
+}
+
+.home-lit-card:last-of-type {
+  border-bottom: none;
+}
+
+.home-lit-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+}
+
+.home-lit-title a {
+  text-decoration: none;
+}
+
+.home-lit-title a:hover {
+  text-decoration: underline;
+}
+
+.home-lit-meta {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.home-lit-excerpt {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #d1d5db;
+}
+
+.home-lit-more {
+  margin-top: 1rem;
+}
+
+.home-lit-more a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.home-lit-more a:hover {
+  text-decoration: underline;
+}
