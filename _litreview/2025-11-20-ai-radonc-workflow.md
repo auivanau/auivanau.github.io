@@ -4,7 +4,7 @@ title: "Artificial Intelligence in Radiation Oncology: Impact on Workflow Effici
 date: 2025-11-20
 permalink: /litreview/2025/11/20/ai-radonc-workflow/
 categories: litreview oncology ai
-thumbnail: /assets/img/litreview-ai-workflow.jpg
+thumbnail: thumbnail: /assets/litreview-wait-times.png
 summary: "A long-form review of how AI tools are reshaping the contouring, planning, QA, and documentation workflows in radiation oncology."
 ---
 
