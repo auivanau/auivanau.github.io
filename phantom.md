@@ -6,14 +6,15 @@ permalink: /phantom/
 
 **Goal:** Create a realistic 3D-printed skull model for radiation oncology quality assurance (QA).
 
-I completed my undergrad in Materials Engineering back in 2016 and spent about six years working in industry before returning to med school. While studying medicine, I found myself missing the hands-on, technical, nerdy stuff I enjoyed in engineering. So I decided to take on a side project that blends both worlds — something with roots in engineering but useful for medicine, especially fields like radiation oncology, radiology, surgery, or med-ed.
+I completed my undergrad in Materials Engineering in 2016 and spent about six years working in industry before returning to med school. During training, I realized I missed the hands-on, technical side of engineering: designing something, testing it, breaking it, fixing it, and watching an idea slowly take shape.
 
-I wanted a project I could scale up in the future but still complete a **minimum viable product (MVP)** by the end of med school — something I could demo, talk about, and be proud of.
+I started looking for a side project that could bridge both worlds. It needed to be grounded in engineering but still meaningful for medicine, especially radiation oncology, radiology, surgery, or med-ed.
 
-I've always been interested in emerging technologies, and for this specific project I relied heavily on ChatGPT — using it like a project manager, research assistant, and technical editor all in one. It drastically improved how quickly I could prototype, iterate, and make decisions. It felt like leading a small engineering team to bring this idea to life.
+My goal was to build something realistic within the time I had. I wanted a small minimum viable product that I could finish before graduating, then iterate on later. Something fun, technical, and genuinely useful.
+
+This build log documents the process, the experiments, the wrong turns, and the small wins.
 
 Welcome to the build log.
-
 ---
 
 ## Posts in this project
