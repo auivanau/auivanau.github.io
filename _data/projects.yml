@@ -2,6 +2,7 @@
   title: "Enhanced Anthropomorphic Phantom"
   url: "/phantom/"
   img: "/assets/PhantomCTIcon.png"
+  blurb: "3D-printed skull and sinus phantom for radiation oncology QA and imaging experiments."
   order: 1
   featured: true
 
@@ -9,34 +10,32 @@
   title: "Oil Sands Public Health Project"
   url: "/oilsands/"
   img: "/assets/oilsands-lungs-overlay.png"
+  blurb: "Exploring respiratory health and environmental exposure among workers in the Alberta oil sands."
   order: 2
   featured: true
 
+# Deep research literature reviews — these should NOT be shown as homepage project tiles
 - id: ai-radonc
   title: "AI’s Impact on Radiation Oncology — A 2025 Deep Dive"
   url: "/litreview/2025/11/20/ai-radonc-workflow/"
-  img: "/assets/A_digital_vector_illustration_features_a_stylized_.png"
+  img: "/assets/litreview-ai-workflow.png"
+  blurb: "A comprehensive review of how AI tools influence contouring, planning, QA, and future practice in radiation oncology."
   order: 3
-  featured: true
+  featured: false
 
+- id: wait-times
+  title: "Wait Times from Lumpectomy to Adjuvant RT"
+  url: "/litreview/2025/11/29/wait-times-lumpectomy-rt/"
+  img: "/assets/litreview-wait-times.png"
+  blurb: "Analysis of surgical-to-radiotherapy intervals across Canada, with provincial focus on Alberta and British Columbia."
+  order: 4
+  featured: false
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# About Me — included in data, but not shown on homepage
 - id: about
   title: "About Me"
   url: "/about/"
   img: "/assets/ivan-au-profile.png"
+  blurb: "Background, training, project philosophy, and the purpose of this working notebook."
   order: 999
-  featured: true
+  featured: false
