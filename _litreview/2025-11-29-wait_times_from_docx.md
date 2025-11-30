@@ -230,40 +230,51 @@ Ultimately, improving timeliness of adjuvant radiotherapy in Alberta—and maint
 
 # References
 
+# References
+
 1. Steering Committee on Clinical Practice Guidelines for the Care and Treatment of Breast Cancer. *Clinical practice guidelines for the care and treatment of breast cancer.* Health Canada; 1998.
 
-2. Cancer Care Ontario. *Breast Cancer Management Guidelines.* Toronto, ON; various years.
+2. Cancer Care Ontario. *Breast Cancer Management Guidelines.* Toronto, ON; various guideline updates.
 
-3. National Comprehensive Cancer Network (NCCN). *NCCN Clinical Practice Guidelines in Oncology: Breast Cancer.* Version 2023–2024.
+3. National Comprehensive Cancer Network (NCCN). *Clinical Practice Guidelines in Oncology: Breast Cancer.* Versions 2023–2024.
 
-4. European Society for Radiotherapy & Oncology (ESTRO). *Radiotherapy of Breast Cancer—Professional Guideline.* ESTRO; 2017.
+4. European Society for Radiotherapy & Oncology (ESTRO). *Radiotherapy of Breast Cancer—Professional Guideline.* 2017.
 
-5. Dutch National Breast Cancer Guideline. *Landelijke richtlijn Mammacarcinoom.* The Netherlands Comprehensive Cancer Organisation (IKNL); 2012–2017 editions.
+5. Netherlands Comprehensive Cancer Organisation (IKNL). *National Breast Cancer Guideline (Richtlijn Mammacarcinoom).* 2012–2017.
 
-6. Huang J, Barbera L, Brouwers M, Browman G, Mackillop WJ. Does delay in starting treatment affect the outcomes of radiotherapy? A systematic review. *JCO.* 2003;21(3):555–563.
+6. Huang J, Barbera L, Brouwers M, Browman GP, Mackillop WJ. Does delay in starting treatment affect outcomes of radiotherapy? A systematic review. *J Clin Oncol.* 2003;21(3):555–563.
 
-7. Chen Z, King W, Pearcey R, Kerba M, Mackillop WJ. The relationship between waiting time for radiotherapy and clinical outcomes: a systematic review of the literature. *Radiother Oncol.* 2008;87(1):3–16.
+7. Chen Z, King W, Pearcey R, Kerba M, Mackillop WJ. The relationship between radiotherapy waiting time and clinical outcomes: A systematic review. *Radiother Oncol.* 2008;87(1):3–16.
 
-8. Olivotto IA, Lesperance ML, Truong PT, et al. Intervals longer than 20 weeks from breast-conserving surgery to radiation therapy are associated with inferior outcome for women with early-stage breast cancer. *J Clin Oncol.* 2009;27(1):16–23.
+8. Olivotto IA, Lesperance ML, Truong PT, et al. Intervals longer than 20 weeks from breast-conserving surgery to radiation therapy are associated with inferior outcomes. *J Clin Oncol.* 2009;27(1):16–23.
 
-9. van Maaren MC, Strobbe LJA, Poortmans PMP, et al. Timing of radiotherapy following breast-conserving surgery and its impact on 10-year disease-free survival. *Br J Cancer.* 2017;116: 52–60.
+9. van Maaren MC, Strobbe LJA, Poortmans PMP, et al. Timing of radiotherapy following breast-conserving surgery and its impact on disease-free survival. *Br J Cancer.* 2017;116:52–60.
 
-10. Canadian Partnership Against Cancer (CPAC). *Wait Times for Cancer Treatment: Pan-Canadian Benchmarks.* Toronto, ON; 2007–2023.
+10. Canadian Partnership Against Cancer (CPAC). *Wait Times for Cancer Treatment in Canada: Pan-Canadian Benchmarks.* Toronto; 2007–2024.
 
-11. Canadian Institute for Health Information (CIHI). *Wait Times for Radiation Therapy: Methodology Notes.* Ottawa, ON; 2019–2024.
+11. Canadian Institute for Health Information (CIHI). *Wait Times for Radiation Therapy: Technical Notes & Annual Updates.* Ottawa; 2019–2024.
 
-12. Alberta Health Services, Cancer Care Alberta. *Cancer Treatment Wait Time Reporting.* Edmonton, AB; various years.
+12. Alberta Health Services, Cancer Care Alberta. *Cancer Treatment Wait Time Reporting.* Edmonton; multiple annual reports.
 
-13. Alberta Medical Association. *Deteriorating Wait Times and Oncology Access in Alberta.* AMA Analysis; 2023–2024.
+13. Alberta Medical Association. *Oncology Access and Wait Time Pressures in Alberta.* AMA Briefing; 2023–2024.
 
-14. Alberta Health Services. *Future of Cancer Impact in Alberta – Full Report.* Edmonton, AB; 2022.
+14. Alberta Health Services. *Future of Cancer Impact in Alberta – Full Report.* Edmonton; 2022.
 
-15. BC Cancer. *Radiation Therapy Wait Times Dashboard.* Vancouver, BC; 2019–2025.
+15. BC Cancer. *Radiation Therapy Wait Time Performance Dashboard.* Vancouver; 2019–2025.
 
-16. BC Gov News. *Province launches 10-year Cancer Plan; reports on radiation therapy wait times.* Government of British Columbia; 2023–2025 releases.
+16. Government of British Columbia (BC Gov News). *Province launches 10-year Cancer Plan; radiation therapy performance updates.* Press releases 2023–2025.
 
-17. British Columbia Medical Journal. Deteriorating wait times for breast cancer patients at a regional hospital in BC, 2013 vs. 2023. *BCMJ.* 2023.
+17. British Columbia Medical Journal. Deteriorating wait times for breast cancer patients at a regional hospital in BC (2013 vs 2023). *BCMJ.* 2023.
 
-18. Canadian Cancer Society. *Breast Cancer: Radiation Therapy Overview.* CCS; Accessed 2023–2025.
+18. Chiarelli AM, Shi L, Halapy E, et al. Factors associated with wait times across the breast cancer treatment pathway in Ontario. *SpringerPlus.* 2013;2:388.
 
-19. Chiarelli AM, Shi L, Halapy E, et al. Factors associated with wait times across the breast cancer treatment pathway in Ontario. *SpringerPlus.* 2013;2:388.
+19. Canadian Cancer Society. *Radiation Therapy for Breast Cancer: Clinical Overview.* Accessed 2023–2025.
+
+20. Alberta Health Services. *Cross Cancer Institute — Locations and Outpatient Satellite Clinic.* Updated Nov 3, 2025.  
+    https://www.albertahealthservices.ca/cci/cci.aspx
+
+21. Alberta Cancer Foundation. *A Transformed Space Means Improved Cancer Care and Research (Cross Cancer Institute Renovation & Expansion Update).* 2024.  
+    https://albertacancer.ca/rtc2024/a-transformed-space-means-improved-cancer-care-and-research/
+
+22. ACI Architecture. *Cross Cancer Institute – Vault 8 Linear Accelerator Retrofit (Technical Project Summary).* 2024.  
+    https://www.aci-arch.com/projects/cross-cancer-institute-vault-8-linear-accelerator/
