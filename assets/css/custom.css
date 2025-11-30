@@ -131,3 +131,138 @@ table td {
     right: 1rem;
   }
 }
+
+/* === Literature Review Card Layout === */
+
+.litreview-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+}
+
+/* Card container */
+.litreview-card {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  background: #1a1a1a; /* Matches your dark theme */
+  border: 1px solid #333;
+  align-items: flex-start;
+  transition: background 0.25s ease, border-color 0.25s ease;
+}
+
+body.theme-light .litreview-card {
+  background: #fafafa;
+  border: 1px solid #ddd;
+}
+
+/* Hover effect */
+.litreview-card:hover {
+  background: #222;
+  border-color: #555;
+}
+
+body.theme-light .litreview-card:hover {
+  background: #f2f2f2;
+  border-color: #bbb;
+}
+
+/* Thumbnail / placeholder */
+.litreview-thumb img,
+.litreview-thumb-placeholder {
+  width: 190px;
+  height: 120px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.litreview-thumb-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #262626;
+  color: #aaa;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+body.theme-light .litreview-thumb-placeholder {
+  background: #e0e0e0;
+  color: #666;
+}
+
+/* Text panel */
+.litreview-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title */
+.litreview-title {
+  margin: 0 0 0.25rem 0;
+}
+
+.litreview-title a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.litreview-title a:hover {
+  text-decoration: underline;
+}
+
+/* Meta line */
+.litreview-meta {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+body.theme-light .litreview-meta {
+  color: #555;
+}
+
+/* Excerpt */
+.litreview-excerpt {
+  margin: 0 0 0.75rem 0;
+  color: #ccc;
+}
+
+body.theme-light .litreview-excerpt {
+  color: #444;
+}
+
+/* Read more link */
+.litreview-readmore {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #90caf9;
+  margin-top: auto;
+}
+
+.litreview-readmore:hover {
+  text-decoration: underline;
+}
+
+body.theme-light .litreview-readmore {
+  color: #0056b3;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  .litreview-card {
+    flex-direction: column;
+  }
+
+  .litreview-thumb img,
+  .litreview-thumb-placeholder {
+    width: 100%;
+    height: 180px;
+  }
+}
