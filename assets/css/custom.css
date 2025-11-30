@@ -377,3 +377,15 @@ body.theme-light .litreview-readmore {
 .home-lit-more a:hover {
   text-decoration: underline;
 }
+
+/* === Hide the "Home" page title on the homepage only === */
+body.home .page-title,
+body.home h1.page-title {
+  display: none !important;
+}
+
+/* Reduce excess top padding on homepage after removing title */
+body.home .page-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
