@@ -39,7 +39,7 @@ collections:
     permalink: /oilsands/:name/
   litreview:
     output: true
-    permalink: /litreview/:path/
+    permalink: /litreview/:year/:month/:day/:title/
   
 
 titles_from_headings:
