@@ -204,11 +204,29 @@ Because provincial dashboards lack surgery→RT metrics, such local audits often
 
 ---
 
+# 9. Recent and Planned Expansions at the Cross Cancer Institute
+
+In recent years, the Cross Cancer Institute (CCI) has initiated several major expansions and infrastructure upgrades — efforts that may improve future throughput and reduce pathway bottlenecks.
+
+- As of **November 3, 2025**, some outpatient and consult appointments are being routed through a newly established **CCI Outpatient Satellite Clinic**.
+- During 2024–2025, CCI completed renovations that include a new high-dose radiotherapy vault, a modernized brachytherapy suite, a dedicated staff wellness area, and a virtual-care centre, and has announced plans for expanded systemic therapy capacity, a larger clinical trials unit, an expanded outpatient clinic, and an upgraded pharmacy.
+- Additionally, one of the older linear-accelerator vaults (Vault 8) was recently retrofitted with a modern multi-energy linac (with contemporary imaging capabilities), improving treatment capacity and aligning with current standard-of-care technology.
+
+These developments reflect institutional recognition of the capacity and access limitations described earlier. While the impact on surgery-to-RT wait times remains to be seen, these capital investments and site expansions represent important system-level interventions that could — if matched by appropriate operational staffing and scheduling reform — help reduce consult and treatment delays in the medium term.
+
+> **Note:** Since the primary bottleneck identified in Alberta remains the referral → consult interval, expansions of physical space (outpatient clinics, vaults, satellite sites) are a necessary first step — but must be paired with increases in clinician and support-staff manpower to meaningfully shift surgery→RT timelines.
+
 # Conclusion
 
-In Canada’s post-pandemic oncology landscape, lumpectomy-to-radiotherapy intervals are increasingly shaped by health-system design rather than RT delivery capacity alone. Alberta’s prolonged waits are driven primarily by delayed consultation access, whereas British Columbia’s earlier crisis was rooted in treatment throughput constraints. Both scenarios underscore the need for accurate measurement of the **entire surgical-to-treatment pathway**, not merely the operational Ready→Start interval.
+Timely initiation of adjuvant radiotherapy after breast-conserving surgery is a core quality indicator in breast cancer care, supported by decades of evidence demonstrating that delays beyond 12 weeks compromise local control and, when prolonged to 20 weeks or more, may adversely affect survival. The Canadian cancer system is designed around this principle; yet, real-world performance varies across provinces due to differing structural constraints, workforce capacity, and operational design.
 
-Effective quality improvement and system planning require acknowledging—and directly addressing—the structural bottlenecks that lead to 16–17 week delays. Maintaining national cancer outcomes depends on ensuring that the interval between lumpectomy and adjuvant RT remains within the evidence-based window of **6–12 weeks**, thereby aligning clinical practice with established guidelines and optimizing patient outcomes.
+Alberta’s current challenge is not treatment throughput but access to consultation. The prolonged interval from referral to radiation oncology assessment—routinely exceeding 12 weeks in Edmonton—creates a clinically significant extension of surgery→RT timelines despite strong performance in the Ready→Start segment. By contrast, British Columbia’s 2022–2023 crisis originated in system-wide treatment capacity limitations, which were subsequently reversed through intensive investment in staffing, physical infrastructure, and strategic provincial prioritization.
+
+Recent developments at the Cross Cancer Institute—including a newly opened Outpatient Satellite Clinic, renovation and modernization of RT vaults and brachytherapy suites, expansion of outpatient and virtual-care space, and plans for increased clinical trial and systemic therapy capacity—demonstrate institutional recognition of the need to expand infrastructure to meet rising demand. These investments are critical foundational steps. However, infrastructure alone will not shorten surgery→RT intervals unless accompanied by proportionate increases in physician FTEs, clinic scheduling capacity, and allied health staffing.
+
+For radiation oncology leadership, the key insight is that operational metrics must not substitute for clinically meaningful indicators. A system may meet official 28-day treatment benchmarks while simultaneously delivering care outside evidence-based therapeutic windows. Therefore, routine monitoring of surgery→RT intervals, stratified by chemotherapy status and tumor biology, should be incorporated into provincial quality-improvement frameworks. Such measurement would align performance monitoring with clinical practice realities and enable targeted interventions at the pathway segments where delays are actually occurring.
+
+Ultimately, improving timeliness of adjuvant radiotherapy in Alberta—and maintaining recovered performance in British Columbia—will require coordinated investment across the entire cancer pathway: from surgical scheduling and referral workflows to consult capacity, planning infrastructure, and treatment delivery. Sustaining high-quality breast cancer care will depend on the extent to which provincial cancer programs can align physical expansion with workforce planning, ensuring that every patient requiring post-lumpectomy radiotherapy receives it within the 6–12 week evidence-based window that optimizes oncologic outcomes.
 
 # References
 
