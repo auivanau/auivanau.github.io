@@ -8,11 +8,13 @@ thumbnail: /assets/litreview-radonc-digest.jpg
 summary: "A weekly radiation oncology literature surveillance digest covering adaptive radiotherapy, image guidance, AI contouring, treatment planning, QA, toxicity prediction, SBRT, reirradiation, and major oncology trials."
 ---
 
-# Weekly Radiation Oncology Literature Surveillance Digest
+# Weekly Radiation Oncology Literature Surveillance Digest: May 24-31, 2026
 
-Must Read
+Preamble: this is a self curated list using ChatGPT5.5-Thinking model. I created a scheduled task, i.e. a basic AI Agent to provide me with topics in Radiation Oncology that interest me. Topics include: adaptive radiotherapy, image guidance, AI contouring, treatment planning, QA, toxicity prediction, SBRT, reirradiation, and major oncology trials.
 
-1. Detsky JS et al. MRI-guided adaptive radiotherapy for high-grade glioma
+## Must Read
+
+### 1. Detsky JS et al. MRI-guided adaptive radiotherapy for high-grade glioma
 
 Journal: The Lancet Oncology, 2026
 Publication type: Peer-reviewed clinical trial
@@ -32,7 +34,7 @@ Highly relevant to CNS adaptive RT, margin reduction, MRI-linac clinical value, 
 
 ---
 
-2. Brunt AM et al. Hypofractionated breast radiotherapy for 1 week versus 3 weeks
+### 2. Brunt AM et al. Hypofractionated breast radiotherapy for 1 week versus 3 weeks
 
 Journal: The Lancet Oncology, 2026
 Publication type: Peer-reviewed randomized trial / long-term outcomes
@@ -52,7 +54,7 @@ Practice-changing for breast fractionation, treatment capacity planning, patient
 
 ---
 
-3. Siva S et al. Ultra-hypofractionated stereotactic ablative body radiotherapy for primary renal cell carcinoma: 5-year pooled FASTRACK outcomes
+### 3. Siva S et al. Ultra-hypofractionated stereotactic ablative body radiotherapy for primary renal cell carcinoma: 5-year pooled FASTRACK outcomes
 
 Journal: The Lancet Oncology, 2026
 Publication type: Peer-reviewed prospective pooled analysis
@@ -72,7 +74,7 @@ Important for SBRT/SABR clinic, kidney motion management, dose constraints, rena
 
 ---
 
-4. Kirby AM et al. Real-world heart and lung doses from 30,000 National Health Service breast radiotherapy patients
+### 4. Kirby AM et al. Real-world heart and lung doses from 30,000 National Health Service breast radiotherapy patients
 
 Journal: The Lancet Oncology, 2026
 Publication type: Peer-reviewed large-scale dosimetric audit
@@ -94,7 +96,7 @@ Useful for breast planning QA, DIBH justification, institutional audit, cardiac 
 
 Worth Skimming
 
-5. Riggenbach E et al. Uterine ultra-mover in cervical cancer radiotherapy: retroversion and the rationale for online adaptive planning
+### 5. Riggenbach E et al. Uterine ultra-mover in cervical cancer radiotherapy: retroversion and the rationale for online adaptive planning
 
 Journal: Practical Radiation Oncology, 2026
 Publication type: Peer-reviewed case-based / technical clinical report
@@ -114,7 +116,7 @@ Useful for cervix adaptive RT, CBCT-based decision-making, and understanding whe
 
 ---
 
-6. Yock AD et al. Multi-institutional validation of a practical, reconfigurable QA approach for online adaptive radiation therapy
+### 6. Yock AD et al. Multi-institutional validation of a practical, reconfigurable QA approach for online adaptive radiation therapy
 
 Journal: Practical Radiation Oncology, 2026
 Publication type: Peer-reviewed multi-institutional technical validation
@@ -134,7 +136,7 @@ High operational relevance for adaptive RT programs, particularly CBCT-guided on
 
 ---
 
-7. Han Y et al. Clinical implementation of dual-isocenter MR-guided adaptive radiotherapy
+### 7. Han Y et al. Clinical implementation of dual-isocenter MR-guided adaptive radiotherapy
 
 Journal: Practical Radiation Oncology, 2026
 Publication type: Peer-reviewed technical implementation / clinical workflow report
@@ -154,7 +156,7 @@ Helpful for adaptive workflows, complex abdominal/pelvic targets, and understand
 
 ---
 
-8. Shinde N et al. Lattice peak optimization: a mixed-integer framework for geometry-adaptive lattice radiotherapy
+### 8. Shinde N et al. Lattice peak optimization: a mixed-integer framework for geometry-adaptive lattice radiotherapy
 
 Journal: Physics in Medicine & Biology, 2026
 Publication type: Peer-reviewed medical physics methods paper
@@ -174,7 +176,7 @@ Worth knowing for advanced planning, spatially fractionated RT, and future trial
 
 ---
 
-9. Wang B et al. AI-assisted decision-making for clinical assessment of auto-segmented contour quality
+### 9. Wang B et al. AI-assisted decision-making for clinical assessment of auto-segmented contour quality
 
 Source: arXiv, 2025
 Publication type: Preprint
@@ -194,9 +196,9 @@ Very relevant to contour QA, adaptive RT safety, and “AI as triage” rather t
 
 ---
 
-Save for Later
+## Save for Later
 
-10. Wang Z et al. Test-time adaptation-driven patient-specific auto-segmentation for CBCT-guided online adaptive radiotherapy in cervical cancer
+### 10. Wang Z et al. Test-time adaptation-driven patient-specific auto-segmentation for CBCT-guided online adaptive radiotherapy in cervical cancer
 
 Journal: Journal of Applied Clinical Medical Physics, 2026
 Publication type: Peer-reviewed technical AI segmentation study
@@ -216,7 +218,7 @@ Good methods paper for cervix online adaptive RT, CBCT segmentation, and AI-assi
 
 ---
 
-11. Berchtold J et al. Prediction of VMAT gamma passing rates using 3D CNNs
+### 11. Berchtold J et al. Prediction of VMAT gamma passing rates using 3D CNNs
 
 Journal: Medical Physics, 2026
 Publication type: Peer-reviewed technical ML/QA study
@@ -236,7 +238,7 @@ Relevant to online adaptive QA, treatment planning automation, and physics workf
 
 ---
 
-12. Genomic-adjusted radiation dose from bulk RNA sequencing for personalized radiotherapy
+### 12. Genomic-adjusted radiation dose from bulk RNA sequencing for personalized radiotherapy
 
 Source: bioRxiv, 2026
 Publication type: Preprint
@@ -256,7 +258,7 @@ Conceptually important for radiobiology and personalized RT, but not clinic-read
 
 ---
 
-13. Loo P et al. FLASH reduces radiation-induced oral mucositis in a mouse model of Fanconi anemia
+### 13. Loo P et al. FLASH reduces radiation-induced oral mucositis in a mouse model of Fanconi anemia
 
 Source: bioRxiv, 2026
 Publication type: Preprint / preclinical study
@@ -276,7 +278,7 @@ Useful for head and neck toxicity and FLASH background, but not practice-changin
 
 ---
 
-14. Targeting CD73–A2aR-mediated adenosine signaling at the tumour-draining lymph node with radiation/immunotherapy relevance
+### 14. Targeting CD73–A2aR-mediated adenosine signaling at the tumour-draining lymph node with radiation/immunotherapy relevance
 
 Source: bioRxiv, 2026
 Publication type: Preprint / preclinical mechanistic study
@@ -296,9 +298,9 @@ Background reading for RT-immunotherapy combinations, but not immediately action
 
 ---
 
-Low Priority
+## Low Priority
 
-15. Ding Y et al. Applications of large language models in radiation oncology: from workflow automation to clinical intelligence
+### 15. Ding Y et al. Applications of large language models in radiation oncology: from workflow automation to clinical intelligence
 
 Source: arXiv, 2026
 Publication type: Preprint / narrative review
@@ -318,7 +320,7 @@ Useful for idea generation and workflow brainstorming, but low immediate evidenc
 
 ---
 
-16. Arberet S et al. AI end-to-end radiation treatment planning under one second
+### 16. Arberet S et al. AI end-to-end radiation treatment planning under one second
 
 Source: arXiv, 2026
 Publication type: Preprint
@@ -338,7 +340,7 @@ Interesting for treatment planning automation, but should be read skeptically.
 
 ---
 
-17. Zhang Z et al. ScribbleDose: scribble-guided dose prediction in radiotherapy
+### 17. Zhang Z et al. ScribbleDose: scribble-guided dose prediction in radiotherapy
 
 Source: arXiv, 2026
 Publication type: Preprint
@@ -358,7 +360,7 @@ Useful methods background, but low direct clinical impact.
 
 ---
 
-Bottom Line This Week
+## Bottom Line This Week
 
 The most clinically meaningful items are:
 
@@ -376,7 +378,7 @@ The preprints this week are interesting but should be treated as hypothesis-gene
 
 ---
 
-References
+## References
 
 [^1]: Detsky JS et al. MRI-guided adaptive radiotherapy for high grade glioma (UNITED): a single-centre, single-arm, non-inferiority, phase 2 trial. PubMed. https://pubmed.ncbi.nlm.nih.gov/42134380/
 
