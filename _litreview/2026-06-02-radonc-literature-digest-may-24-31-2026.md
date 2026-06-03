@@ -10,7 +10,10 @@ summary: "A weekly radiation oncology literature surveillance digest covering ad
 
 # Weekly Radiation Oncology Literature Surveillance Digest: May 24-31, 2026
 
-Preamble: this is a self curated list using ChatGPT5.5-Thinking model. I created a scheduled task, i.e. a basic AI Agent to provide me with topics in Radiation Oncology that interest me. Topics include: adaptive radiotherapy, image guidance, AI contouring, treatment planning, QA, toxicity prediction, SBRT, reirradiation, and major oncology trials.
+Preamble: 
+I am one month away from my radiation oncology residency syatting at U of A in July. I was playing sround with literature review to get my mind primed. Also, I wanted to experiment with AI Agents.
+
+This is a self curated list using ChatGPT5.5-Thinking model. I created a scheduled task, i.e. a basic AI Agent to provide me with topics in rad onc that interest me. Topics include: adaptive radiotherapy, image guidance, AI contouring, treatment planning, QA, toxicity prediction, SBRT, reirradiation, and major oncology trials.
 
 ## Must Read
 
