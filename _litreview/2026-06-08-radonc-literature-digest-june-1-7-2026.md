@@ -10,9 +10,6 @@ summary: "A weekly radiation oncology literature surveillance digest covering ad
 
 # Weekly Radiation Oncology Literature Surveillance Digest: June 1–7, 2026
 
-Preamble:  
-I am one month away from my radiation oncology residency at U of A, starting in July, so I wanted to prime my mind for radiation oncology topics. Also, I wanted to continue experimenting with AI agents via scheduled literature surveillance.
-
 This is a self-curated list using ChatGPT 5.5 Thinking. I created a scheduled task, i.e. a basic AI agent, to provide me with topics in radiation oncology that interest me. Topics include: adaptive radiotherapy, image guidance, AI contouring, treatment planning, QA, toxicity prediction, SBRT, reirradiation, and major oncology trials.
 
 Coverage window searched: **June 1–7, 2026**  
@@ -246,8 +243,6 @@ The most clinically grounded items are more modest:
 1. Radiation dermatitis prevention
 2. Rectal cancer long-term outcomes
 3. Toxicity biology
-
-I would not change practice based on the preprints, but they are good “watchlist” papers for an AI/adaptive/proton-focused radiation oncology literature copilot.
 
 ---
 
