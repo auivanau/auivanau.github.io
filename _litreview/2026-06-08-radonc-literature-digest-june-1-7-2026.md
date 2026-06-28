@@ -4,7 +4,7 @@ title: "Weekly Radiation Oncology Literature Surveillance Digest: June 1–7, 20
 date: 2026-06-08
 permalink: /litreview/2026/06/08/radonc-literature-digest-june-1-7-2026/
 categories: litreview oncology radiation-oncology ai medical-physics
-thumbnail: /assets/litreview-radonc-digest.jpg
+thumbnail: /assets/litreview-radonc-digest.png
 summary: "A weekly radiation oncology literature surveillance digest covering adaptive radiotherapy, image guidance, AI contouring, treatment planning, QA, toxicity prediction, SBRT, reirradiation, and major oncology trials."
 ---
 
