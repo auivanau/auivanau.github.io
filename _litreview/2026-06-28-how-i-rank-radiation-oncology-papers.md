@@ -28,7 +28,7 @@ The objective is not to identify the most highly cited paper or the most technic
 
 Instead, the goal is:
 
-«Estimate the importance of a paper to a practicing radiation oncology department over the next 1–5 years.»
+**Estimate the importance of a paper to a practicing radiation oncology department over the next 1–5 years.**
 
 This deliberately favors clinical utility and implementation over novelty alone.
 
@@ -186,7 +186,7 @@ An academic physicist, a department head, a community radiation oncologist, and 
 
 This framework reflects one perspective:
 
-«Importance to a practicing Canadian radiation oncology department over the next 1–5 years.»
+**Importance to a practicing Canadian radiation oncology department over the next 1–5 years.**
 
 Others may reasonably disagree.
 
