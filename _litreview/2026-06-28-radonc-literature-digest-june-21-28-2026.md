@@ -30,9 +30,9 @@ Overall, this week is clinically moderate: useful for head and neck, reirradiati
 
 ---
 
-Must Read
+## Must Read
 
-1. Long-Term Follow-Up of JCOG1008: Weekly Cisplatin With Postoperative Radiotherapy in High-Risk Head and Neck Cancer
+### 1. Long-Term Follow-Up of JCOG1008: Weekly Cisplatin With Postoperative Radiotherapy in High-Risk Head and Neck Cancer
 
 Journal/source: Journal of Clinical Oncology
 Publication type: Peer-reviewed randomized phase 2/3 long-term follow-up
@@ -52,7 +52,7 @@ Highly relevant for head and neck rotations and postoperative chemoradiotherapy 
 
 ---
 
-2. EXTENDing the Role of Radiation in Oligometastatic Disease
+### 2. EXTENDing the Role of Radiation in Oligometastatic Disease
 
 Journal/source: Journal of Clinical Oncology
 Publication type: Peer-reviewed editorial/commentary
@@ -72,9 +72,9 @@ Useful for framing SBRT in oligometastatic disease: not “SBRT for everyone,”
 
 ---
 
-Worth Skimming
+## Worth Skimming
 
-3. Induction Chemotherapy as Biological Selection Before Proton Radiotherapy in Locally Advanced Pancreatic Cancer
+### 3. Induction Chemotherapy as Biological Selection Before Proton Radiotherapy in Locally Advanced Pancreatic Cancer
 
 Journal/source: Clinical Oncology
 Publication type: Peer-reviewed clinical outcomes study
@@ -94,7 +94,7 @@ Relevant to GI radiation oncology, proton referral decisions, and the broader co
 
 ---
 
-4. Efficacy and Safety of Salvage Brachytherapy for Local Recurrence After Radiotherapy for Prostate Cancer
+### 4. Efficacy and Safety of Salvage Brachytherapy for Local Recurrence After Radiotherapy for Prostate Cancer
 
 Journal/source: Brachytherapy
 Publication type: Peer-reviewed clinical outcomes article
@@ -114,7 +114,7 @@ Highly relevant for prostate reirradiation discussions. Worth saving for GU rota
 
 ---
 
-5. Developing and Validating a Risk Model for Severe Bone Marrow Suppression in Esophageal Cancer Treated With Radiotherapy or Chemoradiotherapy
+### 5. Developing and Validating a Risk Model for Severe Bone Marrow Suppression in Esophageal Cancer Treated With Radiotherapy or Chemoradiotherapy
 
 Journal/source: Technology in Cancer Research & Treatment
 Publication type: Peer-reviewed retrospective prediction-model study
@@ -134,7 +134,7 @@ Useful for toxicity prediction and supportive-care planning in esophageal chemor
 
 ---
 
-6. Parameter-Efficient Adaptation of SAM 3 for Automated ITV Generation From 4DCT Images
+### 6. Parameter-Efficient Adaptation of SAM 3 for Automated ITV Generation From 4DCT Images
 
 Journal/source: arXiv
 Publication type: Preprint
@@ -154,9 +154,9 @@ Relevant to lung SBRT, motion management, adaptive RT, and AI contouring workflo
 
 ---
 
-Save for Later
+## Save for Later
 
-7. Enhancing Heart and Lung Dose Reconstruction in Breast Cancer Radiotherapy Using Publicly Available Out-of-Field Dose Profiles
+### 7. Enhancing Heart and Lung Dose Reconstruction in Breast Cancer Radiotherapy Using Publicly Available Out-of-Field Dose Profiles
 
 Journal/source: Physica Medica
 Publication type: Peer-reviewed medical physics / dose reconstruction article
@@ -176,7 +176,7 @@ Relevant for breast survivorship, cardiac toxicity research, and epidemiology. L
 
 ---
 
-8. Impact of Consolidation-to-Tumor Ratio on Prognosis After Radiotherapy
+### 8. Impact of Consolidation-to-Tumor Ratio on Prognosis After Radiotherapy
 
 Journal/source: Advances in Radiation Oncology
 Publication type: Peer-reviewed clinical outcomes article
@@ -196,7 +196,7 @@ Potentially useful for lung SBRT or thoracic RT risk stratification, but not pra
 
 ---
 
-9. Radiation-Induced Cardiotoxicity in Lung Cancer
+### 9. Radiation-Induced Cardiotoxicity in Lung Cancer
 
 Journal/source: World Journal of Clinical Oncology
 Publication type: Peer-reviewed review
@@ -216,9 +216,9 @@ Good background for lung RT planning, heart substructure sparing, and late toxic
 
 ---
 
-Low Priority
+## Low Priority
 
-10. Superficial Radiotherapy for Cutaneous Warts: A Meta-analysis
+### 10. Superficial Radiotherapy for Cutaneous Warts: A Meta-analysis
 
 Journal/source: Journal of International Medical Research
 Publication type: Peer-reviewed meta-analysis
@@ -238,7 +238,7 @@ Low priority unless interested in benign superficial RT indications.
 
 ---
 
-References
+## References
 
 [^1]: Long-Term Follow-Up of JCOG1008, a Randomized Phase II/III Trial of Weekly Cisplatin Plus Radiation Therapy for Postoperative High-Risk Locally Advanced Squamous Cell Carcinoma of the Head and Neck. Journal of Clinical Oncology. Published online June 26, 2026. https://doi.org/10.1200/JCO-25-01708
 
