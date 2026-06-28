@@ -4,7 +4,7 @@ title: "Weekly Radiation Oncology Literature Surveillance Digest: June 14–21, 
 date: 2026-06-21
 permalink: /litreview/2026/06/21/radonc-literature-digest-june-14-21-2026/
 categories: litreview oncology radiation-oncology ai medical-physics
-thumbnail: /assets/litreview-radonc-digest.jpg
+thumbnail: /assets/litreview-radonc-digest.png
 summary: "This week’s radiation oncology literature digest highlights single-fraction prostate SBRT, breast regional nodal irradiation guidelines, adaptive dose accumulation uncertainty, IGRT practice variation, FLASH preclinical toxicity sparing, and clinically relevant AI/segmentation preprints."
 
 Weekly Radiation Oncology Literature Surveillance Digest: June 14–21, 2026
