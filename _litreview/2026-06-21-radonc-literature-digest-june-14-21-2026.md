@@ -26,7 +26,7 @@ The most operationally relevant physics/AI items are the IGRT practice survey, t
 
 ---
 
-Must Read
+## Must Read
 
 ### 1. Zilli T, Franzese C, Guckenberger M, et al. Single-Fraction Stereotactic Body Radiotherapy for Localized Prostate Cancer
 
@@ -68,7 +68,7 @@ Useful for breast rotations, nodal contouring, RNI indications, postmastectomy R
 
 ---
 
-Worth Skimming
+## Worth Skimming
 
 ### 3. Hemon C, Lebret D, Nunes JC, et al. An Uncertainty Estimation Framework for Dose Accumulation in Adaptive Radiotherapy
 
@@ -150,7 +150,7 @@ Supports continued FLASH radiobiology work, but not clinically actionable yet.
 
 ---
 
-Save for Later
+## Save for Later
 
 ### 7. Rethinking radiotherapy through spatial fractionation
 
@@ -192,7 +192,7 @@ Relevant to brachytherapy physics, dose calculation accuracy, and future model-b
 
 ---
 
-Low Priority
+## Low Priority
 
 ### 9. Yan R, Dai G, Lin Y, et al. Predicting Post-Radiotherapy Epigenetic Age Acceleration
 
