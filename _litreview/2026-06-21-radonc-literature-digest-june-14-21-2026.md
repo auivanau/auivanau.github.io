@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "Weekly Radiation Oncology Literature Surveillance Digest: June 14–21, 2026"
 date: 2026-06-21
@@ -15,7 +14,6 @@ Coverage window searched: June 14–21, 2026
 Scope searched: PubMed, arXiv, medRxiv, bioRxiv, IJROBP, Radiotherapy & Oncology, Practical Radiation Oncology, JCO, Lancet Oncology, Nature Medicine, Medical Physics, and Physics in Medicine & Biology.
 
 Note: This is a best-effort literature surveillance digest, not a formal systematic review.
-
 ---
 
 Bottom Line This Week
@@ -30,7 +28,7 @@ The most operationally relevant physics/AI items are the IGRT practice survey, t
 
 Must Read
 
-1. Zilli T, Franzese C, Guckenberger M, et al. Single-Fraction Stereotactic Body Radiotherapy for Localized Prostate Cancer
+### 1. Zilli T, Franzese C, Guckenberger M, et al. Single-Fraction Stereotactic Body Radiotherapy for Localized Prostate Cancer
 
 Journal/source: JAMA Oncology
 Publication type: Peer-reviewed phase 1/2 nonrandomized clinical trial
@@ -50,7 +48,7 @@ Important for prostate SBRT and future treatment de-escalation. Not enough to re
 
 ---
 
-2. Borm K, Krug D, Corradini S, et al. DEGRO practical guidelines: radiotherapy of breast cancer—regional nodal irradiation
+### 2. Borm K, Krug D, Corradini S, et al. DEGRO practical guidelines: radiotherapy of breast cancer—regional nodal irradiation
 
 Journal/source: Strahlentherapie und Onkologie
 Publication type: Peer-reviewed guideline / consensus review
@@ -72,7 +70,7 @@ Useful for breast rotations, nodal contouring, RNI indications, postmastectomy R
 
 Worth Skimming
 
-3. Hemon C, Lebret D, Nunes JC, et al. An Uncertainty Estimation Framework for Dose Accumulation in Adaptive Radiotherapy
+### 3. Hemon C, Lebret D, Nunes JC, et al. An Uncertainty Estimation Framework for Dose Accumulation in Adaptive Radiotherapy
 
 Journal/source: arXiv
 Publication type: Preprint
@@ -92,7 +90,7 @@ Very relevant to online adaptive RT because cumulative dose estimates are only u
 
 ---
 
-4. Vezirović M, et al. EURADOS survey on IGRT practices in European radiotherapy clinics
+### 4. Vezirović M, et al. EURADOS survey on IGRT practices in European radiotherapy clinics
 
 Journal/source: Physica Medica
 Publication type: Peer-reviewed survey study
@@ -112,7 +110,7 @@ Useful for thinking about CBCT protocols, image matching, departmental QA, adapt
 
 ---
 
-5. Song C. Parameter-Efficient Adaptation of SAM 3 for Automated ITV Generation from 4DCT Images
+### 5. Song C. Parameter-Efficient Adaptation of SAM 3 for Automated ITV Generation from 4DCT Images
 
 Journal/source: arXiv
 Publication type: Preprint
@@ -132,7 +130,7 @@ Relevant to lung/liver SBRT and motion management. Interesting as a contouring a
 
 ---
 
-6. FLASH radiotherapy preserves hepatic function and maintains metabolic homeostasis in a murine breast cancer model
+### 6. FLASH radiotherapy preserves hepatic function and maintains metabolic homeostasis in a murine breast cancer model
 
 Journal/source: Radiation Oncology
 Publication type: Peer-reviewed preclinical study
@@ -154,7 +152,7 @@ Supports continued FLASH radiobiology work, but not clinically actionable yet.
 
 Save for Later
 
-7. Rethinking radiotherapy through spatial fractionation
+### 7. Rethinking radiotherapy through spatial fractionation
 
 Journal/source: Nature Reviews Clinical Oncology
 Publication type: Peer-reviewed review / perspective
@@ -174,7 +172,7 @@ Useful background for GRID/LATTICE/spatially fractionated RT concepts, especiall
 
 ---
 
-8. RapidBrachyMCTPS 3.0: recent updates and validation of a Monte Carlo brachytherapy treatment planning system
+### 8. RapidBrachyMCTPS 3.0: recent updates and validation of a Monte Carlo brachytherapy treatment planning system
 
 Journal/source: Physics in Medicine & Biology
 Publication type: Peer-reviewed medical physics validation study
@@ -196,7 +194,7 @@ Relevant to brachytherapy physics, dose calculation accuracy, and future model-b
 
 Low Priority
 
-9. Yan R, Dai G, Lin Y, et al. Predicting Post-Radiotherapy Epigenetic Age Acceleration
+### 9. Yan R, Dai G, Lin Y, et al. Predicting Post-Radiotherapy Epigenetic Age Acceleration
 
 Journal/source: Cancer Medicine
 Publication type: Peer-reviewed biomarker / modelling study
@@ -216,7 +214,7 @@ Interesting for survivorship and late-effects research, but low immediate clinic
 
 ---
 
-10. Liao Z, et al. Application of delta radiomics based on cone-beam CT for predicting radiotherapy efficacy in nasopharyngeal carcinoma
+### 10. Liao Z, et al. Application of delta radiomics based on cone-beam CT for predicting radiotherapy efficacy in nasopharyngeal carcinoma
 
 Journal/source: Strahlentherapie und Onkologie
 Publication type: Peer-reviewed retrospective radiomics study
