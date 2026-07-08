@@ -18,7 +18,7 @@ Note: This is a best-effort literature surveillance digest, not a formal systema
 
 ---
 
-## Bottom Line This Week
+Bottom Line This Week
 
 The most clinically meaningful paper this week is the JAMA Oncology study on cardiac risk after heart-sparing breast radiotherapy, which suggests that left anterior descending coronary artery dose may be more informative than whole-heart dose metrics for long-term cardiac events.
 
