@@ -8,7 +8,7 @@ categories: litreview oncology radiation-oncology ai medical-physics
 thumbnail: /assets/litreview-radonc-digest.png
 summary: "This week’s radiation oncology digest highlights LAD-specific cardiac risk after breast radiotherapy, proton therapy in pediatric rhabdomyosarcoma, robust dose-escalated stereotactic proton planning, synthetic CT-enabled adaptive radiotherapy, CBCT reconstruction from orthogonal X-rays, and open-source software in radiation oncology."
 
-## Weekly Radiation Oncology Literature Surveillance Digest: June 29–July 5, 2026
+Weekly Radiation Oncology Literature Surveillance Digest: June 29–July 5, 2026
 
 Coverage window searched: June 29–July 5, 2026
 
