@@ -10,8 +10,6 @@ summary: "This week’s digest highlights simulation-free palliative radiotherap
 
 # Weekly Radiation Oncology Literature Surveillance Digest: July 5–12, 2026
 
-**Suggested filename:** `2026-07-12-radonc-literature-digest-july-5-12-2026.md`
-
 **Coverage window searched:** July 5–12, 2026
 
 **Scope searched:** PubMed, arXiv, medRxiv, bioRxiv, IJROBP, Radiotherapy & Oncology, Practical Radiation Oncology, JCO and ASCO publications, Lancet Oncology, Nature Medicine, Medical Physics, and Physics in Medicine & Biology.
