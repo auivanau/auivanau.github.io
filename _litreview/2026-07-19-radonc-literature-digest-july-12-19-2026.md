@@ -10,8 +10,6 @@ summary: "This week’s digest highlights a randomized spermidine intervention f
 
 # Weekly Radiation Oncology Literature Surveillance Digest: July 12–19, 2026
 
-**Suggested filename:** `2026-07-19-radonc-literature-digest-july-12-19-2026.md`
-
 **Coverage window searched:** July 12–19, 2026
 
 **Scope searched:** PubMed, arXiv, medRxiv, bioRxiv, IJROBP, Radiotherapy & Oncology, Practical Radiation Oncology, JCO and ASCO publications, Lancet Oncology, Nature Medicine, Medical Physics, and Physics in Medicine & Biology.
