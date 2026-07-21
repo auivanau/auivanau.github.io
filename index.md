@@ -1,10 +1,3 @@
----
-layout: home
-title: Home
-permalink: /
-description: "High-signal radiation oncology literature surveillance and clinical horizon scanning from a physician-engineer."
----
-
 <section class="hero">
   <p class="section-kicker">Medicine × engineering × AI</p>
   <h1>Clinical intelligence for radiation oncology and medicine.</h1>
@@ -15,9 +8,7 @@ description: "High-signal radiation oncology literature surveillance and clinica
   </div>
 </section>
 
-{% assign sorted_posts = site.litreview | sort: "date" | reverse %}
-{% assign latest_radonc = sorted_posts | where: "series", "radonc-weekly" | first %}
-{% assign latest_horizon = sorted_posts | where: "series", "clinical-horizon-scan" | first %}
+{% assign sorted_posts = site.litreview | sort: "date" | reverse %}{% assign latest_radonc = sorted_posts | where: "series", "radonc-weekly" | first %}{% assign latest_horizon = sorted_posts | where: "series", "clinical-horizon-scan" | first %}
 
 <section class="section-block" aria-labelledby="latest-issues">
   <div class="section-heading">
@@ -67,8 +58,8 @@ description: "High-signal radiation oncology literature surveillance and clinica
 <section class="section-block" aria-labelledby="featured-thinking">
   <div class="section-heading">
     <div>
-      <p class="section-kicker">Evergreen analysis</p>
-      <h2 id="featured-thinking">Methods and deep dives</h2>
+      <p class="section-kicker">From the Lab</p>
+      <h2 id="featured-thinking">Essays, methods, and deep dives</h2>
     </div>
   </div>
   <div class="compact-link-grid">
