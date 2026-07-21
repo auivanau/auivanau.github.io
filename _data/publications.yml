@@ -1,0 +1,26 @@
+- id: radonc-weekly
+  title: "Radiation Oncology Weekly"
+  short_title: "Rad Onc Weekly"
+  url: "/radonc-weekly/"
+  image: "/assets/litreview-radonc-digest.png"
+  cadence: "Published weekly"
+  audience: "Radiation oncologists, residents, medical physicists, and oncology researchers"
+  description: "A ranked, critically appraised surveillance digest focused on clinically important radiation oncology, medical physics, adaptive radiotherapy, and AI literature."
+
+- id: clinical-horizon-scan
+  title: "Clinical Horizon Scan"
+  short_title: "Clinical Horizon Scan"
+  url: "/clinical-horizon-scan/"
+  image: "/assets/medical-news-clinical-horizon-scan.png"
+  cadence: "Published weekly"
+  audience: "Clinicians and trainees who want important medical developments without the noise"
+  description: "A cross-specialty briefing on trials, regulatory developments, public health, biotechnology, and clinically relevant AI—prioritized by evidence maturity and practice impact."
+
+- id: deep-dive
+  title: "Deep Dives & Methods"
+  short_title: "Deep Dive"
+  url: "/litreview/#deep-dives"
+  image: "/assets/litreview-ai-workflow.jpg"
+  cadence: "Published periodically"
+  audience: "Clinicians, researchers, and builders interested in evidence appraisal and clinical technology"
+  description: "Longer-form analysis of clinical evidence, health systems, workflow, and emerging technology."

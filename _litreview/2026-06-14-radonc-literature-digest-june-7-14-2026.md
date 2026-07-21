@@ -6,8 +6,9 @@ permalink: /litreview/2026/06/14/radonc-literature-digest-june-7-14-2026/
 categories: litreview oncology radiation-oncology ai medical-physics
 thumbnail: /assets/litreview-radonc-digest.png
 summary: "This week’s radiation oncology literature digest highlights a phase 3 prostate radiotherapy/immunogene therapy trial, long-term SABR data, breast hypofractionation, PSMA PET-era prostate risk stratification, PSQA performance, and practical AI-in-oncology guidance."
+series: radonc-weekly
+image: /assets/litreview-radonc-digest.png
 ---
-
 ## Weekly Radiation Oncology Literature Surveillance Digest: June 7–14, 2026
 
 **Coverage window searched:** June 7–14, 2026  

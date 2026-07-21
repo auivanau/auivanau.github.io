@@ -6,8 +6,9 @@ permalink: "/litreview/2026/07/19/radonc-literature-digest-july-12-19-2026/"
 categories: "litreview oncology radiation-oncology ai medical-physics"
 thumbnail: "/assets/litreview-radonc-digest.png"
 summary: "This week’s digest highlights a randomized spermidine intervention for radiation-related salivary dysfunction, prostate radiotherapy chronogenomics, breast radiotherapy in autoimmune disease, gated CBCT reconstruction, prostate reirradiation guidance, lung interstitial brachytherapy imaging changes, and SRS for vestibular schwannoma."
+series: radonc-weekly
+image: "/assets/litreview-radonc-digest.png"
 ---
-
 # Weekly Radiation Oncology Literature Surveillance Digest: July 12–19, 2026
 
 **Coverage window searched:** July 12–19, 2026

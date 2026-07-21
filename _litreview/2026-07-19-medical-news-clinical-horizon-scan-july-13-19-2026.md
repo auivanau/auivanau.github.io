@@ -6,8 +6,9 @@ permalink: "/medicine/2026/07/19/medical-news-clinical-horizon-scan-july-13-19-2
 categories: "medicine medical-news clinical-trials biotechnology public-health ai"
 thumbnail: "/assets/medical-news-clinical-horizon-scan.png"
 summary: "A first-in-class oral PCSK9 inhibitor, a cancer-specific pulmonary embolism diagnostic strategy, new oncology approvals, a negative tau-targeted Alzheimer trial, an unsuccessful AI-triggered AKI intervention, and an evolving Bundibugyo Ebola outbreak."
+series: clinical-horizon-scan
+image: "/assets/medical-news-clinical-horizon-scan.png"
 ---
-
 # Weekly Medical News and Clinical Horizon Scan: July 13–19, 2026
 
 ## Bottom Line This Week

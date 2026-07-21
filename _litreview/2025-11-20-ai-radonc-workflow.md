@@ -6,9 +6,9 @@ permalink: /litreview/2025/11/20/ai-radonc-workflow/
 categories: litreview oncology ai
 thumbnail: /assets/litreview-ai-workflow.jpg
 summary: "A long-form review of how AI tools are reshaping the contouring, planning, QA, and documentation workflows in radiation oncology."
+series: deep-dive
+image: /assets/litreview-ai-workflow.jpg
 ---
-
-
 ## Artificial Intelligence in Radiation Oncology: Impact on Workflow Efficiency
 
 

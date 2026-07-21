@@ -1,39 +1,34 @@
-
 <!-- Site build date: {{ "now" | date: "%FT%T%z" }} -->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
 
-  <!-- Begin SEO -->
   {% seo %}
-  <!-- End SEO -->
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" type="text/css" href="/css/override.css"><link rel="stylesheet" href="{{ '/assets/css/override.css' | relative_url }}">
+  {% assign social_image = page.thumbnail | default: page.image | default: site.default_social_image %}
+  {% if social_image %}
+    <meta property="og:image" content="{{ social_image | absolute_url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ social_image | absolute_url }}">
+  {% endif %}
 
-  {% feed_meta %}
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/override.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | absolute_url }}">
 
-  {% if jekyll.environment == 'production' and site.google_analytics -%}
-  <!-- Begin Google Analytics -->
-  {% include google-analytics.html %}
-  <!-- End Google Analytics -->
-  {%- endif %}
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
 
-  <!-- Begin highlight.js support -->
-  <link rel="stylesheet" href="/js/highlightjs/styles/github.css">
-  <link rel="stylesheet" href="/js/highlightjs/styles/ssms.css" />
-
-  <script type="text/javascript" src="/js/highlightjs/highlight.min.js"></script>
-
-  <script type="text/javascript" src="/js/highlightjs/languages/plaintext.min.js"></script>
-  <script type="text/javascript" src="/js/highlightjs/languages/powershell.min.js"></script>
-  <script type="text/javascript" src="/js/highlightjs/languages/tsql.min.js"></script>
-
-  <script type="text/javascript"> hljs.highlightAll(); </script>
-  <!-- end highlight.js support -->
-
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"> 
-  <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
-
+  <link rel="stylesheet" href="{{ '/js/highlightjs/styles/github.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/js/highlightjs/styles/ssms.css' | relative_url }}">
+  <script defer src="{{ '/js/highlightjs/highlight.min.js' | relative_url }}"></script>
+  <script defer src="{{ '/js/highlightjs/languages/plaintext.min.js' | relative_url }}"></script>
+  <script defer src="{{ '/js/highlightjs/languages/powershell.min.js' | relative_url }}"></script>
+  <script defer src="{{ '/js/highlightjs/languages/tsql.min.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/share.js' | relative_url }}"></script>
 </head>

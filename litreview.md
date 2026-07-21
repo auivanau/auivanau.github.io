@@ -1,42 +1,32 @@
 ---
-layout: default
-title: Literature Review
+layout: page
+title: Library
 permalink: /litreview/
+description: "Browse all literature surveillance issues, clinical horizon scans, methods, and deep dives from The Lab."
 ---
 
-<h1>Literature Review</h1>
-<p>These are my longer-form literature reviews and deep dives.</p>
+<p class="page-intro">Browse the complete publication archive, from weekly surveillance to longer-form methods and clinical technology analysis.</p>
+
+<div class="library-nav">
+  <a href="{{ '/radonc-weekly/' | relative_url }}"><strong>Rad Onc Weekly</strong><span>Ranked radiation oncology surveillance</span></a>
+  <a href="{{ '/clinical-horizon-scan/' | relative_url }}"><strong>Clinical Horizon Scan</strong><span>Cross-specialty medical developments</span></a>
+  <a href="#deep-dives"><strong>Deep Dives & Methods</strong><span>Evergreen evidence and technology analysis</span></a>
+</div>
+
+## Deep Dives & Methods {#deep-dives}
 
 <div class="litreview-list">
-  {% assign lit_posts = site.litreview | sort: "date" | reverse %}
-  {% for post in lit_posts %}
-    <article class="litreview-card">
-      <a class="litreview-thumb" href="{{ post.url | relative_url }}">
-        {% if post.thumbnail %}
-          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }} thumbnail">
-        {% else %}
-          <div class="litreview-thumb-placeholder">
-            <span>LR</span>
-          </div>
-        {% endif %}
-      </a>
+  {% assign sorted_posts = site.litreview | sort: "date" | reverse %}
+  {% assign deep_dives = sorted_posts | where: "series", "deep-dive" %}
+  {% for post in deep_dives %}
+    {% include post-card.html post=post %}
+  {% endfor %}
+</div>
 
-      <div class="litreview-content">
-        <h2 class="litreview-title">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h2>
-        <p class="litreview-meta">
-          {{ post.date | date: "%b %-d, %Y" }}
-        </p>
-        <p class="litreview-excerpt">
-          {% if post.summary %}
-            {{ post.summary }}
-          {% else %}
-            {{ post.excerpt | strip_html | truncate: 220 }}
-          {% endif %}
-        </p>
-        <a class="litreview-readmore" href="{{ post.url | relative_url }}">Read full review →</a>
-      </div>
-    </article>
+## All publications
+
+<div class="litreview-list">
+  {% for post in sorted_posts %}
+    {% include post-card.html post=post %}
   {% endfor %}
 </div>

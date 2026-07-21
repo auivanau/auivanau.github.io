@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "Weekly Radiation Oncology Literature Surveillance Digest: June 21–28, 2026"
 date: 2026-06-28
@@ -7,7 +6,9 @@ permalink: /litreview/2026/06/28/radonc-literature-digest-june-21-28-2026/
 categories: litreview oncology radiation-oncology ai medical-physics
 thumbnail: /assets/litreview-radonc-digest.png
 summary: "This week’s radiation oncology digest highlights long-term postoperative head and neck chemoradiotherapy data, oligometastatic disease commentary, proton therapy selection in pancreatic cancer, salvage prostate brachytherapy, treatment-toxicity prediction, and AI-assisted ITV generation."
-
+series: radonc-weekly
+image: /assets/litreview-radonc-digest.png
+---
 Weekly Radiation Oncology Literature Surveillance Digest: June 21–28, 2026
 
 Coverage window searched: June 21–28, 2026
@@ -16,7 +17,7 @@ Scope searched: PubMed, arXiv, medRxiv, bioRxiv, IJROBP, Radiotherapy & Oncology
 
 Note: This is a best-effort literature surveillance digest, not a formal systematic review.
 
----
+
 
 Bottom Line This Week
 
