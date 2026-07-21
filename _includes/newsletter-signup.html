@@ -1,0 +1,13 @@
+<section class="newsletter-panel" id="subscribe" aria-labelledby="subscribe-title">
+  <div>
+    <p class="section-kicker">Stay current</p>
+    <h2 id="subscribe-title">Get the next issue</h2>
+    <p>Follow the weekly radiation oncology and general medical scans without relying on an algorithmic feed.</p>
+  </div>
+  <div class="newsletter-panel__actions">
+    {% if site.newsletter_url and site.newsletter_url != "" %}
+      <a class="button button--primary" href="{{ site.newsletter_url }}" rel="noopener">Subscribe by email</a>
+    {% endif %}
+    <a class="button button--secondary" href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS</a>
+  </div>
+</section>

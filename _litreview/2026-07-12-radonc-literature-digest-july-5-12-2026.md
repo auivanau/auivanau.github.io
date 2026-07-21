@@ -6,8 +6,9 @@ permalink: "/litreview/2026/07/12/radonc-literature-digest-july-5-12-2026/"
 categories: "litreview oncology radiation-oncology ai medical-physics"
 thumbnail: "/assets/litreview-radonc-digest.png"
 summary: "This week’s digest highlights simulation-free palliative radiotherapy, CBCT-guided online adaptive prostate SBRT, cardiac toxicity after central lung SBRT, federated learning for pneumonitis prediction, breast secondary-cancer modelling, and practical device and workflow studies."
+series: radonc-weekly
+image: "/assets/litreview-radonc-digest.png"
 ---
-
 # Weekly Radiation Oncology Literature Surveillance Digest: July 5–12, 2026
 
 **Coverage window searched:** July 5–12, 2026

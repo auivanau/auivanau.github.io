@@ -6,8 +6,9 @@ permalink: /litreview/2026/06/08/radonc-literature-digest-june-1-7-2026/
 categories: litreview oncology radiation-oncology ai medical-physics
 thumbnail: /assets/litreview-radonc-digest.png
 summary: "A weekly radiation oncology literature surveillance digest covering adaptive radiotherapy, image guidance, AI contouring, treatment planning, QA, toxicity prediction, SBRT, reirradiation, and major oncology trials."
+series: radonc-weekly
+image: /assets/litreview-radonc-digest.png
 ---
-
 # Weekly Radiation Oncology Literature Surveillance Digest: June 1–7, 2026
 
 This is a self-curated list using ChatGPT 5.5 Thinking. I created a scheduled task, i.e. a basic AI agent, to provide me with topics in radiation oncology that interest me. Topics include: adaptive radiotherapy, image guidance, AI contouring, treatment planning, QA, toxicity prediction, SBRT, reirradiation, and major oncology trials.

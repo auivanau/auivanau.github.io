@@ -1,13 +1,17 @@
 ---
 layout: page
-title: Blog Archive
+title: Archive
+permalink: /archive/
 ---
 
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.date | date: "%B %Y" }} - {{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<p class="page-intro">A chronological list of all published literature surveillance, horizon scans, methods, and deep dives.</p>
+
+{% assign posts = site.litreview | sort: "date" | reverse %}
+<div class="archive-list">
+  {% for post in posts %}
+    <article>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      <div><a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if post.series %}<small>{{ post.series | replace: '-', ' ' | capitalize }}</small>{% endif %}</div>
+    </article>
+  {% endfor %}
+</div>

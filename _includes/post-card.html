@@ -1,0 +1,28 @@
+{% assign post = include.post %}
+<article class="content-card">
+  <a class="content-card__media" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title | escape }}">
+    {% if post.thumbnail %}
+      <img src="{{ post.thumbnail | relative_url }}" alt="" loading="lazy">
+    {% else %}
+      <div class="content-card__placeholder" aria-hidden="true">The Lab</div>
+    {% endif %}
+  </a>
+  <div class="content-card__body">
+    {% if post.series %}
+      {% assign publication = site.data.publications | where: "id", post.series | first %}
+      {% if publication %}
+        <a class="eyebrow-link" href="{{ publication.url | relative_url }}">{{ publication.short_title }}</a>
+      {% endif %}
+    {% endif %}
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p class="content-card__meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+    <p>
+      {% if post.summary %}
+        {{ post.summary }}
+      {% else %}
+        {{ post.excerpt | strip_html | truncate: 220 }}
+      {% endif %}
+    </p>
+    <a class="text-link" href="{{ post.url | relative_url }}">Read the analysis →</a>
+  </div>
+</article>

@@ -5,6 +5,7 @@ date: 2026-06-28
 permalink: /posts/2026/06/28/how-i-rank-radiation-oncology-papers/
 categories: methodology radiation-oncology evidence-based-medicine literature-review
 summary: "A transparent framework for ranking radiation oncology papers based on clinical impact, evidence strength, practice readiness, and relevance to everyday radiation oncology practice."
+series: deep-dive
 ---
 Why Create an Importance Score?
 

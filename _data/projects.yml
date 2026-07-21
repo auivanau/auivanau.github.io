@@ -18,7 +18,7 @@
 - id: ai-radonc
   title: "AI’s Impact on Radiation Oncology — A 2025 Deep Dive"
   url: "/litreview/2025/11/20/ai-radonc-workflow/"
-  img: "/assets/litreview-ai-workflow.png"
+  img: "/assets/litreview-ai-workflow.jpg"
   blurb: "A comprehensive review of how AI tools influence contouring, planning, QA, and future practice in radiation oncology."
   order: 3
   featured: false
@@ -26,7 +26,7 @@
 - id: wait-times
   title: "Wait Times from Lumpectomy to Adjuvant RT"
   url: "/litreview/2025/11/29/wait-times-lumpectomy-rt/"
-  img: "/assets/litreview-wait-times.png"
+  img: "/assets/litreview-wait-times.jpg"
   blurb: "Analysis of surgical-to-radiotherapy intervals across Canada, with provincial focus on Alberta and British Columbia."
   order: 4
   featured: false

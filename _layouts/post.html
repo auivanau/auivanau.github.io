@@ -1,30 +1,49 @@
 ---
 layout: default
 ---
-<link href="/css/override.css" rel="stylesheet" type="text/css">
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="post-header post-header--enhanced">
+    {% if page.series %}
+      {% assign publication = site.data.publications | where: "id", page.series | first %}
+      {% if publication %}
+        <a class="publication-badge" href="{{ publication.url | relative_url }}">{{ publication.short_title }}</a>
+      {% endif %}
+    {% endif %}
 
-  <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+
+    {% if page.summary %}
+      <p class="post-dek">{{ page.summary }}</p>
+    {% endif %}
+
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
       </time>
       {% assign author = page.author | default: site.author %}
-      {%- if author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-      {%- endif -%}</p>
+      {% if author %}
+        <span aria-hidden="true"> · </span>
+        <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <span class="p-author h-card" itemprop="name">{{ author }}</span>
+        </span>
+      {% endif %}
+    </p>
   </header>
 
-  <div class="share-links">
+  <div class="share-links" aria-label="Share this article">
     {% include sharelinks.html %}
   </div>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
-    {% include navlinks.html %}
   </div>
 
+  {% include newsletter-signup.html %}
+  {% include author-box.html %}
+
+  <p class="editorial-note"><strong>Editorial note:</strong> This site is educational and reflects the author’s independent interpretation. It is not medical advice, institutional guidance, or a substitute for reviewing the original evidence.</p>
+
+  {% include navlinks.html %}
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

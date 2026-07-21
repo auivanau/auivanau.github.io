@@ -1,53 +1,33 @@
 (function () {
-  const iconMap = {
-    dark: "🌙",
-    light: "🌞"
-  };
+  function updateIcon(theme) {
+    const icon = document.getElementById("theme-icon");
+    if (icon) icon.textContent = theme === "dark" ? "☾" : "☀";
+  }
 
   function applyTheme(theme) {
     document.body.classList.remove("theme-dark", "theme-light");
-
-    if (theme === "dark") {
-      document.body.classList.add("theme-dark");
-      localStorage.setItem("theme", "dark");
-      updateIcon("dark");
-    } else {
-      document.body.classList.add("theme-light");
-      localStorage.setItem("theme", "light");
-      updateIcon("light");
-    }
+    document.body.classList.add(theme === "light" ? "theme-light" : "theme-dark");
+    localStorage.setItem("theme", theme === "light" ? "light" : "dark");
+    updateIcon(theme);
   }
-
-  function updateIcon(theme) {
-    const icon = document.getElementById("theme-icon");
-    if (icon) {
-      icon.textContent = theme === "dark" ? "🌙" : "🌞";
-    }
-  }
-
-  window.toggleTheme = function () {
-    const isDark = document.body.classList.contains("theme-dark");
-    applyTheme(isDark ? "light" : "dark");
-  };
 
   window.addEventListener("DOMContentLoaded", function () {
-    const saved = localStorage.getItem("theme") || "dark";
-    applyTheme(saved);
+    const saved = localStorage.getItem("theme");
+    const preferred = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    applyTheme(saved || preferred);
 
-    const btn = document.createElement("button");
-    btn.innerHTML = '<span id="theme-icon">🌙</span>';
-    btn.title = "Toggle theme";
-    btn.style = `
-      position: fixed;
-      top: 1rem;
-      right: 1rem;
-      background: none;
-      border: none;
-      font-size: 1.3em;
-      cursor: pointer;
-      z-index: 1000;
-    `;
-    btn.onclick = toggleTheme;
-    document.body.appendChild(btn);
+    const button = document.createElement("button");
+    button.id = "theme-toggle";
+    button.className = "theme-toggle";
+    button.type = "button";
+    button.title = "Toggle light and dark mode";
+    button.setAttribute("aria-label", "Toggle light and dark mode");
+    button.innerHTML = '<span id="theme-icon" aria-hidden="true"></span>';
+    button.addEventListener("click", function () {
+      applyTheme(document.body.classList.contains("theme-dark") ? "light" : "dark");
+    });
+    document.body.appendChild(button);
+
+    if (window.hljs) window.hljs.highlightAll();
   });
 })();
