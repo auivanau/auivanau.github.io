@@ -10,8 +10,6 @@ summary: "This week’s digest highlights NCI trial-planning recommendations for
 
 # Weekly Radiation Oncology Literature Surveillance Digest: July 20–26, 2026
 
-**Suggested filename:** `2026-07-26-radonc-literature-digest-july-20-26-2026.md`
-
 **Coverage window searched:** July 20–26, 2026
 
 **Scope searched:** PubMed, arXiv, medRxiv, bioRxiv, IJROBP, Radiotherapy & Oncology, Practical Radiation Oncology, JCO and ASCO publications, Lancet Oncology, Nature Medicine, Medical Physics, and Physics in Medicine & Biology.
