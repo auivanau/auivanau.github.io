@@ -5,6 +5,7 @@ date: 2026-07-26
 permalink: "/medicine/2026/07/26/medical-news-clinical-horizon-scan-july-20-26-2026/"
 categories: "medicine medical-news clinical-trials biotechnology public-health ai"
 thumbnail: "/assets/medical-news-clinical-horizon-scan.png"
+series: clinical-horizon-scan
 summary: "A negative thrombectomy trial for medium and distal vessel stroke, perioperative enfortumab vedotin plus pembrolizumab in bladder cancer, expanded statin eligibility under new dyslipidemia guidance, failed gonorrhea vaccine cross-protection, a new ROS1 inhibitor approval, and regulatory scrutiny of compounded peptides."
 ---
 
