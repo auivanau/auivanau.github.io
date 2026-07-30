@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Net Worth Planner r8</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+:root{--bg:#f4f6f8;--card:#fff;--text:#18212b;--muted:#667085;--line:#d9e0e7;--accent:#2563eb;--good:#16794d;--bad:#c53929;--warn:#b86a00}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif} .app{max-width:1280px;margin:auto;padding:20px}
+h1{margin:0 0 4px;font-size:30px}.subtitle{color:var(--muted);margin-bottom:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:16px;box-shadow:0 2px 8px rgba(16,24,40,.04)}
+.grid{display:grid;gap:12px}.grid-2{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.grid-3{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}.grid-5{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.stat{padding:14px;border:1px solid var(--line);border-radius:10px}.stat .label{font-size:12px;color:var(--muted)}.stat .value{font-size:24px;font-weight:700;margin-top:5px}
+label{font-size:13px;font-weight:600;color:#344054;display:block}input,select{width:100%;padding:9px 10px;border:1px solid #cbd3dc;border-radius:8px;background:#fff;font:inherit;margin-top:5px}input:focus,select:focus{outline:2px solid #bfdbfe;border-color:var(--accent)}
+button{border:0;border-radius:8px;padding:9px 13px;font-weight:600;cursor:pointer;background:var(--accent);color:#fff}button.secondary{background:#eef2f7;color:#344054}button.danger{background:#fee4e2;color:#b42318}.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.toolbar.right{justify-content:flex-end}
+h2{font-size:20px;margin:0 0 14px}h3{font-size:16px;margin:14px 0 10px}.section-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:8px;border-bottom:1px solid var(--line);text-align:right;vertical-align:middle}th{background:#f8fafc;color:#475467;font-size:12px;position:sticky;top:0}th:first-child,td:first-child{text-align:left}.table-wrap{overflow:auto;max-height:520px;border:1px solid var(--line);border-radius:10px}.compact input,.compact select{min-width:95px;margin:0;padding:7px}.compact .wide{min-width:150px}.row-actions{white-space:nowrap}.row-actions button{padding:6px 8px}
+details{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}summary{font-weight:700;cursor:pointer;color:#344054}.note{font-size:13px;color:var(--muted);line-height:1.45}.pill{display:inline-block;border-radius:999px;padding:3px 8px;font-size:12px;background:#eef2f7;color:#475467}.good{color:var(--good)}.bad{color:var(--bad)}.warning{color:var(--warn)}
+.tabs{display:flex;gap:6px;margin-bottom:12px}.tab{background:#eef2f7;color:#475467}.tab.active{background:#dbeafe;color:#1d4ed8}.hidden{display:none!important}.chart-wrap{height:390px}.save{display:none;position:fixed;right:16px;top:16px;background:var(--good);color:#fff;padding:8px 12px;border-radius:8px;z-index:99}
+@media(max-width:700px){.app{padding:10px}.card{padding:13px}.stat .value{font-size:20px}.chart-wrap{height:300px}th,td{padding:6px}}
+</style>
+</head>
+<body>
+<div id="saveMessage" class="save">Saved</div>
+<div id="calculationError" class="card hidden" style="border-color:#fecdca;background:#fffbfa;color:#b42318"></div>
+<div class="app">
+  <h1>Net Worth Planner</h1>
+  <div class="subtitle">Phase-based income, flexible spending, account modelling, and retirement projections.</div>
+
+  <div id="summaryCards" class="grid grid-5"></div>
+
+  <div class="card">
+    <div class="section-head"><h2>Starting position</h2><span id="startingTotal" class="pill"></span></div>
+    <div class="grid grid-3">
+      <label>Starting age<input type="number" id="startAge" value="33"></label>
+      <label>TFSA / tax-free investments<input type="number" id="tfsaBalance" value="472000"></label>
+      <label>RRSP / registered investments<input type="number" id="rrspBalance" value="600000"></label>
+      <label>Taxable investments<input type="number" id="taxableBalance" value="280000"></label>
+      <label>Home equity / other assets<input type="number" id="homeEquity" value="695000"></label>
+      <label>Mortgage / other debt<input type="number" id="debtBalance" value="554000"></label>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="section-head"><h2>Life phases</h2><button onclick="addPhase()">Add phase</button></div>
+    <div class="note">Income and expenses are entered in today's dollars and inflated automatically. Each age uses the first matching phase.</div>
+    <div class="table-wrap"><table id="phasesTable" class="compact"><thead><tr><th>Phase</th><th>Start age</th><th>End age</th><th>Your income</th><th>Spouse income</th><th>Annual expenses</th><th>Actions</th></tr></thead><tbody></tbody></table></div>
+  </div>
+
+  <div class="card">
+    <div class="section-head"><h2>Spending</h2><div class="tabs"><button id="simpleTab" class="tab active" onclick="setExpenseMode('simple')">Simple</button><button id="detailedTab" class="tab" onclick="setExpenseMode('detailed')">Detailed</button></div></div>
+    <div id="simpleExpense" class="note">Annual expenses are set directly within each life phase.</div>
+    <div id="detailedExpense" class="hidden">
+      <div class="note">These categories create a baseline annual expense. Life phases can use this baseline by entering 0 in their expense field.</div>
+      <div class="table-wrap"><table id="categoriesTable" class="compact"><thead><tr><th>Category</th><th>Monthly</th><th>Annual</th><th></th></tr></thead><tbody></tbody><tfoot><tr><th>Total</th><th id="categoryMonthlyTotal"></th><th id="categoryAnnualTotal"></th><th></th></tr></tfoot></table></div>
+      <button style="margin-top:10px" onclick="addCategory()">Add category</button>
+    </div>
+
+    <h3>Expense adjustments</h3>
+    <div class="note">Use these for temporary or permanent changes without rewriting every phase.</div>
+    <div class="table-wrap"><table id="adjustmentsTable" class="compact"><thead><tr><th>Description</th><th>Start</th><th>End</th><th>Type</th><th>Amount</th><th></th></tr></thead><tbody></tbody></table></div>
+    <button style="margin-top:10px" onclick="addAdjustment()">Add adjustment</button>
+  </div>
+
+  <div class="card">
+    <div class="section-head"><h2>Changes and events</h2><div class="tabs"><button id="oneTimeTab" class="tab active" onclick="setEventTab('one')">One-time</button><button id="recurringTab" class="tab" onclick="setEventTab('recurring')">Recurring</button></div></div>
+    <div id="oneTimePanel"><div class="table-wrap"><table id="eventsTable" class="compact"><thead><tr><th>Description</th><th>Age</th><th>Amount (+/−)</th><th></th></tr></thead><tbody></tbody></table></div><button style="margin-top:10px" onclick="addEvent()">Add one-time event</button></div>
+    <div id="recurringPanel" class="hidden"><div class="table-wrap"><table id="recurringTable" class="compact"><thead><tr><th>Description</th><th>Start</th><th>End</th><th>Annual amount (+/−)</th><th>Inflate?</th><th></th></tr></thead><tbody></tbody></table></div><button style="margin-top:10px" onclick="addRecurring()">Add recurring change</button></div>
+  </div>
+
+  <div class="card">
+    <h2>Projection</h2>
+    <div class="chart-wrap"><canvas id="netWorthChart"></canvas></div>
+    <details><summary>Detailed annual results</summary><div class="toolbar right" style="margin:10px 0"><button class="secondary" onclick="downloadCSV()">Download CSV</button></div><div class="table-wrap"><table id="resultsTable"><thead><tr><th>Age</th><th>Income</th><th>Taxes</th><th>Expenses</th><th>Events</th><th>Investment gains</th><th>End net worth</th><th>TFSA</th><th>RRSP</th><th>Taxable</th><th>Home</th><th>Debt</th></tr></thead><tbody></tbody></table></div></details>
+  </div>
+
+  <div class="card">
+    <details open><summary>Investment and retirement assumptions</summary>
+      <div class="grid grid-3" style="margin-top:12px">
+        <label>Inflation rate (%)<input type="number" id="inflation" step="0.1" value="2"></label>
+        <label>Base investment return (%)<input type="number" id="returnRate" step="0.1" value="7"></label>
+        <label>Conservative return (%)<input type="number" id="conservativeReturn" step="0.1" value="4"></label>
+        <label>Optimistic return (%)<input type="number" id="optimisticReturn" step="0.1" value="9"></label>
+        <label>Taxable portfolio tax drag (%)<input type="number" id="taxableDrag" step="0.1" value="15"></label>
+        <label>RRSP withdrawal tax (%)<input type="number" id="rrspWithdrawalTax" step="0.1" value="30"></label>
+        <label>Retirement age<input type="number" id="retirementAge" value="65"></label>
+        <label>Target annual retirement spending<input type="number" id="withdrawAmount" value="300000"></label>
+        <label>Target withdrawal rate (%)<input type="number" id="withdrawRate" step="0.1" value="4"></label>
+        <label>Home appreciation (%)<input type="number" id="homeGrowth" step="0.1" value="0"></label>
+        <label>Annual debt repayment<input type="number" id="annualDebtPayment" value="0"></label>
+        <label>Surplus allocation<select id="surplusAllocation"><option value="tfsa">TFSA → RRSP → taxable</option><option value="taxable">Taxable only</option><option value="proportional">Proportional</option></select></label>
+      </div>
+    </details>
+    <details><summary>Advanced annual overrides</summary>
+      <div class="note" style="margin:10px 0">Only add years that differ from the phase assumptions.</div>
+      <div class="table-wrap"><table id="overridesTable" class="compact"><thead><tr><th>Age</th><th>Your income</th><th>Spouse income</th><th>Expenses</th><th>Return %</th><th></th></tr></thead><tbody></tbody></table></div>
+      <button style="margin-top:10px" onclick="addOverride()">Add override</button>
+    </details>
+    <div class="toolbar" style="margin-top:16px"><button class="secondary" onclick="saveToLocal(true)">Save now</button><button class="danger" onclick="resetToDefaults()">Reset defaults</button></div>
+    <div class="note" style="margin-top:10px">Tax calculations are rough planning estimates and exclude credits, CPP/EI, deductions, and detailed investment tax rules.</div>
+  </div>
+</div>
+<script>
+const CURRENT_YEAR=new Date().getFullYear();let chart,saveTimer,expenseMode='simple',isHydrating=false;
+const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+const num=id=>{const v=parseFloat(document.getElementById(id)?.value);return Number.isFinite(v)?v:0};
+const hasValue=v=>v!==undefined&&v!==null&&String(v).trim()!=='';
+const finiteOrZero=v=>Number.isFinite(v)?v:0;
+const money=v=>finiteOrZero(Number(v)).toLocaleString('en-CA',{style:'currency',currency:'CAD',maximumFractionDigits:0});
+function input(v,type='number',cls=''){return `<input class="${cls}" type="${type}" value="${v??''}">`}
+function removeRow(btn){btn.closest('tr').remove();updateAll()}
+function addPhase(x={name:'New phase',start:33,end:90,your:0,spouse:0,expenses:0}){$('#phasesTable tbody').insertAdjacentHTML('beforeend',`<tr><td>${input(x.name,'text','wide')}</td><td>${input(x.start)}</td><td>${input(x.end)}</td><td>${input(x.your)}</td><td>${input(x.spouse)}</td><td>${input(x.expenses)}</td><td class="row-actions"><button class="secondary" onclick="duplicatePhase(this)">Copy</button> <button class="danger" onclick="removeRow(this)">×</button></td></tr>`);if(!isHydrating)updateAll()}
+function duplicatePhase(btn){const r=btn.closest('tr'),v=Array.from(r.querySelectorAll('input'));addPhase({name:v[0].value+' copy',start:+v[1].value,end:+v[2].value,your:+v[3].value,spouse:+v[4].value,expenses:+v[5].value})}
+function addCategory(x={name:'Other',monthly:0}){$('#categoriesTable tbody').insertAdjacentHTML('beforeend',`<tr><td>${input(x.name,'text','wide')}</td><td>${input(x.monthly)}</td><td class="annual"></td><td><button class="danger" onclick="removeRow(this)">×</button></td></tr>`);if(!isHydrating)updateAll()}
+function addAdjustment(x={desc:'',start:33,end:90,type:'fixed',amount:0}){$('#adjustmentsTable tbody').insertAdjacentHTML('beforeend',`<tr><td>${input(x.desc,'text','wide')}</td><td>${input(x.start)}</td><td>${input(x.end)}</td><td><select><option value="fixed" ${x.type==='fixed'?'selected':''}>Fixed $/year</option><option value="percent" ${x.type==='percent'?'selected':''}>Percent</option></select></td><td>${input(x.amount)}</td><td><button class="danger" onclick="removeRow(this)">×</button></td></tr>`);if(!isHydrating)updateAll()}
+function addEvent(x={desc:'',age:33,amount:0}){$('#eventsTable tbody').insertAdjacentHTML('beforeend',`<tr><td>${input(x.desc,'text','wide')}</td><td>${input(x.age)}</td><td>${input(x.amount)}</td><td><button class="danger" onclick="removeRow(this)">×</button></td></tr>`);if(!isHydrating)updateAll()}
+function addRecurring(x={desc:'',start:33,end:90,amount:0,inflate:true}){$('#recurringTable tbody').insertAdjacentHTML('beforeend',`<tr><td>${input(x.desc,'text','wide')}</td><td>${input(x.start)}</td><td>${input(x.end)}</td><td>${input(x.amount)}</td><td><select><option value="yes" ${x.inflate?'selected':''}>Yes</option><option value="no" ${!x.inflate?'selected':''}>No</option></select></td><td><button class="danger" onclick="removeRow(this)">×</button></td></tr>`);if(!isHydrating)updateAll()}
+function addOverride(x={age:33,your:'',spouse:'',expenses:'',rate:''}){$('#overridesTable tbody').insertAdjacentHTML('beforeend',`<tr><td>${input(x.age)}</td><td>${input(x.your)}</td><td>${input(x.spouse)}</td><td>${input(x.expenses)}</td><td>${input(x.rate)}</td><td><button class="danger" onclick="removeRow(this)">×</button></td></tr>`);if(!isHydrating)updateAll()}
+function setExpenseMode(m){expenseMode=m;$('#simpleExpense').classList.toggle('hidden',m!=='simple');$('#detailedExpense').classList.toggle('hidden',m!=='detailed');$('#simpleTab').classList.toggle('active',m==='simple');$('#detailedTab').classList.toggle('active',m==='detailed');updateAll()}
+function setEventTab(t){$('#oneTimePanel').classList.toggle('hidden',t!=='one');$('#recurringPanel').classList.toggle('hidden',t!=='recurring');$('#oneTimeTab').classList.toggle('active',t==='one');$('#recurringTab').classList.toggle('active',t==='recurring')}
+function rows(table){return $$(`#${table} tbody tr`)}
+function readRowInputs(r){return Array.from(r.querySelectorAll('input,select')).map(e=>e.value)}
+function categoryAnnual(){return rows('categoriesTable').reduce((s,r)=>s+(parseFloat(readRowInputs(r)[1])||0)*12,0)}
+function calculateTaxes(income){if(income<=0)return 0;let tax=0,last=0,remaining=income;for(const b of [{l:53359,r:.25},{l:106717,r:.30},{l:165430,r:.36},{l:235675,r:.39},{l:Infinity,r:.44}]){const x=Math.min(b.l-last,remaining);if(x>0){tax+=x*b.r;remaining-=x;last=b.l}if(remaining<=0)break}return tax}
+function accountTotal(a){return a.tfsa+a.rrsp+a.taxable+a.home-a.debt}
+function investSurplus(a,amount){if(amount<=0)return;const mode=$('#surplusAllocation').value;if(mode==='taxable'){a.taxable+=amount}else if(mode==='proportional'){const inv=Math.max(1,a.tfsa+a.rrsp+a.taxable);a.tfsa+=amount*a.tfsa/inv;a.rrsp+=amount*a.rrsp/inv;a.taxable+=amount*a.taxable/inv}else{const tfsaRoom=Math.max(0,1000000-a.tfsa),toTfsa=Math.min(amount,tfsaRoom);a.tfsa+=toTfsa;amount-=toTfsa;const rrspRoom=Math.max(0,1000000-a.rrsp),toRrsp=Math.min(amount,rrspRoom);a.rrsp+=toRrsp;amount-=toRrsp;a.taxable+=amount}}
+function fundDeficit(a,need,rrspTax){let tax=0;let x=Math.min(a.taxable,need);a.taxable-=x;need-=x;x=Math.min(a.tfsa,need);a.tfsa-=x;need-=x;if(need>0&&a.rrsp>0){const gross=need/(1-rrspTax);x=Math.min(a.rrsp,gross);a.rrsp-=x;need-=x*(1-rrspTax);tax+=x*rrspTax}if(need>0)a.debt+=need;return tax}
+function runProjection(mode='base'){
+ const startAge=num('startAge')||33,infl=num('inflation')/100,retAge=num('retirementAge')||65,rrspTax=num('rrspWithdrawalTax')/100,taxDrag=num('taxableDrag')/100;
+ const baseRate=num('returnRate')/100,rate=mode==='conservative'?num('conservativeReturn')/100:mode==='optimistic'?num('optimisticReturn')/100:baseRate;
+ const target=(num('withdrawRate')>0)?num('withdrawAmount')/(num('withdrawRate')/100):Infinity;
+ let a={tfsa:num('tfsaBalance'),rrsp:num('rrspBalance'),taxable:num('taxableBalance'),home:num('homeEquity'),debt:num('debtBalance')};
+ let phases=rows('phasesTable').map(r=>{const v=readRowInputs(r);return{name:v[0],start:+v[1],end:+v[2],your:+v[3]||0,spouse:+v[4]||0,expenses:+v[5]||0}}).filter(p=>Number.isFinite(p.start)&&Number.isFinite(p.end)&&p.end>=p.start);
+ if(!phases.length){phases=[{name:'Residency',start:startAge,end:37,your:70000,spouse:150000,expenses:150000},{name:'Attending career',start:38,end:64,your:513000,spouse:0,expenses:180000},{name:'Retirement',start:65,end:90,your:0,spouse:0,expenses:num('withdrawAmount')||300000}];}
+ const adj=rows('adjustmentsTable').map(r=>{const v=readRowInputs(r);return{start:+v[1],end:+v[2],type:v[3],amount:+v[4]||0}});
+ const events=rows('eventsTable').map(r=>{const v=readRowInputs(r);return{age:+v[1],amount:+v[2]||0}});
+ const recurring=rows('recurringTable').map(r=>{const v=readRowInputs(r);return{start:+v[1],end:+v[2],amount:+v[3]||0,inflate:v[4]==='yes'}});
+ const overrides=new Map(rows('overridesTable').map(r=>{const v=readRowInputs(r);return[+v[0],{your:v[1],spouse:v[2],expenses:v[3],rate:v[4]}]}));
+ const out=[];
+ for(let age=startAge;age<=90;age++){
+  const y=age-startAge,f=Math.pow(1+infl,y),phase=phases.find(p=>age>=p.start&&age<=p.end)||{your:0,spouse:0,expenses:0};const o=overrides.get(age)||{};
+  let your=(hasValue(o.your)?parseFloat(o.your):phase.your)*f,spouse=(hasValue(o.spouse)?parseFloat(o.spouse):phase.spouse)*f;
+  let baseExpense=(hasValue(o.expenses)?parseFloat(o.expenses):(phase.expenses||categoryAnnual()))*f;
+  your=finiteOrZero(your);spouse=finiteOrZero(spouse);baseExpense=finiteOrZero(baseExpense);
+  adj.filter(x=>age>=x.start&&age<=x.end).forEach(x=>{baseExpense=x.type==='percent'?baseExpense*(1+x.amount/100):baseExpense+x.amount*f});
+  let eventAmount=events.filter(e=>e.age===age).reduce((s,e)=>s+e.amount,0)+recurring.filter(e=>age>=e.start&&age<=e.end).reduce((s,e)=>s+e.amount*(e.inflate?f:1),0);
+  const overrideRate=hasValue(o.rate)?parseFloat(o.rate)/100:null;
+  const r=(mode==='base'&&Number.isFinite(overrideRate))?overrideRate:rate;
+  const tfsaGain=finiteOrZero(a.tfsa*r),rrspGain=finiteOrZero(a.rrsp*r),taxGross=finiteOrZero(a.taxable*r),taxGain=finiteOrZero(taxGross-Math.max(0,taxGross)*taxDrag),homeGain=finiteOrZero(a.home*(num('homeGrowth')/100));
+  a.tfsa+=tfsaGain;a.rrsp+=rrspGain;a.taxable+=taxGain;a.home+=homeGain;
+  const debtPay=Math.min(a.debt,num('annualDebtPayment')*f);a.debt-=debtPay;baseExpense+=debtPay;
+  const taxes=calculateTaxes(your)+calculateTaxes(spouse),afterTax=your+spouse-taxes,cash=afterTax-baseExpense+eventAmount;
+  let withdrawalTax=0;if(cash>=0)investSurplus(a,cash);else withdrawalTax=fundDeficit(a,-cash,rrspTax);
+  out.push({age,year:CURRENT_YEAR+y,income:your+spouse,taxes:taxes+withdrawalTax,expenses:baseExpense,eventAmount,gains:tfsaGain+rrspGain+taxGain+homeGain,netWorth:accountTotal(a),accounts:{...a},target,retAge});
+ }
+ return out;
+}
+function updateCategoryTotals(){let annual=0;rows('categoriesTable').forEach(r=>{const m=parseFloat(readRowInputs(r)[1])||0;r.querySelector('.annual').textContent=money(m*12);annual+=m*12});$('#categoryMonthlyTotal').textContent=money(annual/12);$('#categoryAnnualTotal').textContent=money(annual)}
+function updateSummary(results){const current=num('tfsaBalance')+num('rrspBalance')+num('taxableBalance')+num('homeEquity')-num('debtBalance'),ret=results.find(r=>r.age===num('retirementAge')),target=results[0]?.target||0,targetAge=results.find(r=>r.netWorth>=target)?.age;$('#startingTotal').textContent='Calculated net worth: '+money(current);const cards=[['Current net worth',money(current)],['At retirement',ret?money(ret.netWorth):'—'],['Retirement target',isFinite(target)?money(target):'—'],['Target reached',targetAge?'Age '+targetAge:'Not reached'],['At age 90',money(results.at(-1)?.netWorth)]];$('#summaryCards').innerHTML=cards.map(c=>`<div class="stat"><div class="label">${c[0]}</div><div class="value">${c[1]}</div></div>`).join('')}
+function renderResults(results){$('#resultsTable tbody').innerHTML=results.map(r=>`<tr><td>${r.age}</td><td>${money(r.income)}</td><td>${money(r.taxes)}</td><td>${money(r.expenses)}</td><td>${money(r.eventAmount)}</td><td class="${r.gains>=0?'good':'bad'}">${money(r.gains)}</td><td class="${r.netWorth>=0?'good':'bad'}">${money(r.netWorth)}</td><td>${money(r.accounts.tfsa)}</td><td>${money(r.accounts.rrsp)}</td><td>${money(r.accounts.taxable)}</td><td>${money(r.accounts.home)}</td><td>${money(r.accounts.debt)}</td></tr>`).join('')}
+function renderChart(base,cons,opt){if(typeof Chart==='undefined'){return}if(chart)chart.destroy();chart=new Chart($('#netWorthChart'),{type:'line',data:{labels:base.map(r=>r.age),datasets:[{label:'Base',data:base.map(r=>r.netWorth),borderColor:'#2563eb',pointRadius:0},{label:'Conservative',data:cons.map(r=>r.netWorth),borderColor:'#667085',pointRadius:0},{label:'Optimistic',data:opt.map(r=>r.netWorth),borderColor:'#16794d',pointRadius:0},{label:'Retirement target',data:base.map(()=>base[0]?.target),borderColor:'#b86a00',borderDash:[6,5],pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{tooltip:{callbacks:{label:c=>`${c.dataset.label}: ${money(c.raw)}`}}},scales:{x:{title:{display:true,text:'Age'}},y:{ticks:{callback:v=>money(v)},title:{display:true,text:'Net worth'}}}}})}
+function updateAll(){try{$('#calculationError').classList.add('hidden');updateCategoryTotals();const b=runProjection(),c=runProjection('conservative'),o=runProjection('optimistic');updateSummary(b);renderResults(b);renderChart(b,c,o);clearTimeout(saveTimer);saveTimer=setTimeout(()=>saveToLocal(false),250)}catch(err){console.error(err);const box=$('#calculationError');box.textContent='Calculation error: '+err.message;box.classList.remove('hidden')}}
+function serializeTable(id){return rows(id).map(readRowInputs)}
+function saveToLocal(show=false){const ids=['startAge','tfsaBalance','rrspBalance','taxableBalance','homeEquity','debtBalance','inflation','returnRate','conservativeReturn','optimisticReturn','taxableDrag','rrspWithdrawalTax','retirementAge','withdrawAmount','withdrawRate','homeGrowth','annualDebtPayment','surplusAllocation'];const data={settings:Object.fromEntries(ids.map(id=>[id,$('#'+id).value])),expenseMode,tables:Object.fromEntries(['phasesTable','categoriesTable','adjustmentsTable','eventsTable','recurringTable','overridesTable'].map(id=>[id,serializeTable(id)]))};localStorage.setItem('netWorthPlannerR8',JSON.stringify(data));if(show){$('#saveMessage').style.display='block';setTimeout(()=>$('#saveMessage').style.display='none',900)}}
+function loadFromLocal(){
+ const raw=localStorage.getItem('netWorthPlannerR8');if(!raw)return false;
+ try{
+  isHydrating=true;
+  const d=JSON.parse(raw);
+  Object.entries(d.settings||{}).forEach(([k,v])=>{const el=document.getElementById(k);if(el)el.value=v});
+  const t=d.tables||{};
+  ['phasesTable','categoriesTable','adjustmentsTable','eventsTable','recurringTable','overridesTable'].forEach(id=>$('#'+id+' tbody').innerHTML='');
+  const savedPhases=Array.isArray(t.phasesTable)?t.phasesTable:[];
+  if(savedPhases.length){savedPhases.forEach(v=>addPhase({name:v[0],start:v[1],end:v[2],your:v[3],spouse:v[4],expenses:v[5]}))}
+  else{
+   const sa=num('startAge')||33;
+   addPhase({name:'Residency',start:sa,end:37,your:70000,spouse:150000,expenses:150000});
+   addPhase({name:'Attending career',start:Math.max(38,sa),end:64,your:513000,spouse:0,expenses:180000});
+   addPhase({name:'Retirement',start:65,end:90,your:0,spouse:0,expenses:num('withdrawAmount')||300000});
+  }
+  const savedCategories=Array.isArray(t.categoriesTable)?t.categoriesTable:[];
+  if(savedCategories.length)savedCategories.forEach(v=>addCategory({name:v[0],monthly:v[1]}));
+  else [['Housing',5000],['Food and household',2000],['Transportation',1200],['Travel and recreation',2000],['Childcare and family',1500],['Other',800]].forEach(x=>addCategory({name:x[0],monthly:x[1]}));
+  (t.adjustmentsTable||[]).forEach(v=>addAdjustment({desc:v[0],start:v[1],end:v[2],type:v[3],amount:v[4]}));
+  (t.eventsTable||[]).forEach(v=>addEvent({desc:v[0],age:v[1],amount:v[2]}));
+  (t.recurringTable||[]).forEach(v=>addRecurring({desc:v[0],start:v[1],end:v[2],amount:v[3],inflate:v[4]==='yes'}));
+  (t.overridesTable||[]).forEach(v=>addOverride({age:v[0],your:v[1],spouse:v[2],expenses:v[3],rate:v[4]}));
+  expenseMode=d.expenseMode||'simple';
+  $('#simpleExpense').classList.toggle('hidden',expenseMode!=='simple');
+  $('#detailedExpense').classList.toggle('hidden',expenseMode!=='detailed');
+  $('#simpleTab').classList.toggle('active',expenseMode==='simple');
+  $('#detailedTab').classList.toggle('active',expenseMode==='detailed');
+  return true;
+ }catch(e){console.warn('Could not restore saved planner data:',e);return false}
+ finally{isHydrating=false}
+}
+function defaults(){isHydrating=true;localStorage.removeItem('netWorthPlannerR8');['phasesTable','categoriesTable','adjustmentsTable','eventsTable','recurringTable','overridesTable'].forEach(id=>$('#'+id+' tbody').innerHTML='');Object.entries({startAge:33,tfsaBalance:472000,rrspBalance:600000,taxableBalance:280000,homeEquity:695000,debtBalance:554000,inflation:2,returnRate:7,conservativeReturn:4,optimisticReturn:9,taxableDrag:15,rrspWithdrawalTax:30,retirementAge:65,withdrawAmount:300000,withdrawRate:4,homeGrowth:0,annualDebtPayment:0}).forEach(([k,v])=>$('#'+k).value=v);addPhase({name:'Residency',start:33,end:37,your:70000,spouse:150000,expenses:150000});addPhase({name:'Attending career',start:38,end:64,your:513000,spouse:0,expenses:180000});addPhase({name:'Retirement',start:65,end:90,your:0,spouse:0,expenses:300000});[['Housing',5000],['Food and household',2000],['Transportation',1200],['Travel and recreation',2000],['Childcare and family',1500],['Other',800]].forEach(x=>addCategory({name:x[0],monthly:x[1]}));expenseMode='simple';$('#simpleExpense').classList.remove('hidden');$('#detailedExpense').classList.add('hidden');$('#simpleTab').classList.add('active');$('#detailedTab').classList.remove('active');isHydrating=false;updateAll()}
+function resetToDefaults(){if(confirm('Reset all saved assumptions to defaults?'))defaults()}
+function downloadCSV(){const headers=$$('#resultsTable thead th').map(x=>x.textContent.trim());const lines=[headers.join(',')];rows('resultsTable').forEach(r=>lines.push(Array.from(r.querySelectorAll('td')).map(td=>'"'+td.textContent.replaceAll('"','""')+'"').join(',')));const blob=new Blob([lines.join('\n')],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='net-worth-projection.csv';a.click();URL.revokeObjectURL(a.href)}
+document.addEventListener('input',e=>{if(e.target.matches('input,select'))updateAll()});
+if(!loadFromLocal())defaults();else updateAll();
+</script>
+</body>
+</html>
