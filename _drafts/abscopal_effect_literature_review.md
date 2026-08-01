@@ -1,9 +1,12 @@
 ---
+layout: post
 title: "The Abscopal Effect and Systemic Immune Effects of Radiation Therapy: Biology, Clinical Evidence, and Future Directions"
 date: 2026-08-01
-categories: [radiation-oncology, immunotherapy, literature-review]
-tags: [abscopal-effect, radiotherapy, immunotherapy, cGAS-STING, SBRT, checkpoint-inhibitors]
+categories: radiation-oncology, immunotherapy, literature-review
+series: deep-dive
 summary: "A critical narrative review of the abscopal effect, separating strict out-of-field tumor regression from broader radiation-immunotherapy synergy."
+thumbnail: /assets/images/abscopal-effect-thumbnail.png
+image: /assets/images/abscopal-effect-thumbnail.png
 ---
 
 # The Abscopal Effect and Systemic Immune Effects of Radiation Therapy: Biology, Clinical Evidence, and Future Directions
