@@ -5,8 +5,8 @@ date: 2026-08-01
 categories: radiation-oncology, immunotherapy, literature-review
 series: deep-dive
 summary: "A critical narrative review of the abscopal effect, separating strict out-of-field tumor regression from broader radiation-immunotherapy synergy."
-thumbnail: /assets/images/abscopal-effect-thumbnail.png
-image: /assets/images/abscopal-effect-thumbnail.png
+thumbnail: /assets/abscopal-effect-thumbnail.png
+image: /assets/abscopal-effect-thumbnail.png
 ---
 
 # The Abscopal Effect and Systemic Immune Effects of Radiation Therapy: Biology, Clinical Evidence, and Future Directions
@@ -28,7 +28,7 @@ The clinical evidence is mixed. Case reports and proof-of-principle studies demo
 
 **Clinical bottom line:** outside a clinical trial, radiation should not be prescribed solely to create an abscopal response. It is reasonable to consider immune interactions when radiation is indicated for palliation, oligoprogression, local control, or consolidation, but patients should not be promised distant shrinkage. The key research question is no longer whether abscopal responses can happen. They can. The key question is whether radiation can be used reproducibly, safely, and predictably to improve systemic disease control beyond what immunotherapy would have achieved alone.
 
-![Figure 1. Abscopal effect at a glance](/assets/images/abscopal-effect/fig01_abscopal_at_a_glance.png)
+![Figure 1. Abscopal effect at a glance](/assets/fig01_abscopal_at_a_glance.png)
 
 **Figure 1. Abscopal effect at a glance.** Local radiation may create an in situ vaccine-like event, but systemic benefit requires many immune steps and competes with treatment-induced immune suppression.
 
@@ -86,7 +86,7 @@ Dendritic cells then take up tumor antigens and cross-present them to T cells, u
 
 This model is elegant, but every step can fail. The irradiated lesion may lack relevant antigens. Dendritic-cell recruitment may be poor. The tumor-draining lymph node may be damaged by radiation. T cells may be depleted, exhausted, excluded, or suppressed. Distant metastases may have lost the target antigen, reside in an immunosuppressive organ, or be too bulky for immune control.
 
-![Figure 2. Detailed immune mechanism](/assets/images/abscopal-effect/fig02_detailed_immune_mechanism.png)
+![Figure 2. Detailed immune mechanism](/assets/fig02_detailed_immune_mechanism.png)
 
 **Figure 2. Detailed immune mechanism.** Radiation can trigger tumor-antigen release, innate sensing, dendritic-cell cross-presentation, CD8 T-cell priming, systemic trafficking, and distant tumor-cell killing. This is a conceptual model rather than a guaranteed clinical sequence.
 
@@ -102,7 +102,7 @@ TGF-beta is another important suppressive pathway. In poorly immunogenic models,
 
 This bidirectionality matters clinically. Radiation is not automatically an immune accelerator. Depending on how and where it is delivered, radiation may either help generate systemic immunity or damage the immune machinery required for that response.
 
-![Figure 3. Immunostimulatory versus immunosuppressive radiation effects](/assets/images/abscopal-effect/fig03_competing_immune_effects.png)
+![Figure 3. Immunostimulatory versus immunosuppressive radiation effects](/assets/fig03_competing_immune_effects.png)
 
 **Figure 3. Radiation’s competing immune effects.** The net immune result of radiation is determined by the balance between antigen release and innate activation on one side, and lymphocyte depletion, suppressive cytokines, checkpoint upregulation, marrow exposure, and nodal injury on the other.
 
@@ -170,7 +170,7 @@ Schoenfeld and colleagues randomized patients with metastatic NSCLC resistant to
 
 Recent retrospective and real-world studies continue to find occasional abscopal responses, especially in melanoma and ICI-refractory populations, but these are highly selected. The ARTIC melanoma study reported abscopal responses in selected patients with malignant melanoma progressing on immune checkpoint inhibitors and receiving radiation, with associations between hypofractionation and benefit.[27] A 2026 large multicentre cohort of ICI-refractory metastatic disease required nonirradiated lesions outside the 10% isodose and serial imaging, reflecting the field’s movement toward more rigorous definitions.[28]
 
-![Figure 4. Timeline of foundational and clinical evidence](/assets/images/abscopal-effect/fig04_evidence_timeline.png)
+![Figure 4. Timeline of foundational and clinical evidence](/assets/fig04_evidence_timeline.png)
 
 **Figure 4. Evolution of evidence.** Early reports established the phenomenon; preclinical studies defined immune mechanisms; prospective and randomized trials produced both encouraging and negative signals.
 
@@ -250,7 +250,7 @@ A successful abscopal response requires a long chain of events:
 
 Failure at any step prevents a measurable abscopal response.
 
-![Figure 5. Why translation fails](/assets/images/abscopal-effect/fig05_translation_failure_chain.png)
+![Figure 5. Why translation fails](/assets/fig05_translation_failure_chain.png)
 
 **Figure 5. Why translation fails.** Abscopal responses are uncommon because tumor-antigen release, innate sensing, T-cell priming, trafficking, infiltration, and distant killing must all succeed in the same patient.
 
