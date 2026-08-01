@@ -10,6 +10,47 @@ image: /assets/abscopal-effect-thumbnail.png
 ---
 ![Illustration of the abscopal effect and systemic immune effects of radiation therapy](/assets/abscopal-effect-thumbnail.png)
 
+### Personal notes: How I made this article
+
+I started working on this article at **7:26 a.m. on August 1, 2026**, using **ChatGPT 5.6 Thinking** on the high reasoning setting.
+
+My first prompt was simply:
+
+> “What is the abscopal effect in radiation therapy?”
+
+I followed that with:
+
+> “Can you give me a literature review overview that I can read—about a 20-minute read—on the current state of research into the abscopal effect in radiation therapy?”
+
+ChatGPT then produced a 4,565-word article. I read through it, but felt that it was too wordy and visually dense for most readers to stay engaged. So, naturally, I asked:
+
+> “Where would you suggest putting diagrams within this article so it isn’t just a block of text?”
+
+This is a strategy I have found useful: asking the LLM to reflect on its own output and create a plan before diving into the next task.
+
+It responded with a long list of suggestions, including:
+
+> “I’d use 6–7 visuals, spaced roughly every 2–3 sections. That would break up the article without making it feel like a slide deck.”
+
+That led to my next question: should I ask ChatGPT to create the images, or should I use diagrams from other sources?
+
+I asked:
+
+> “How would you suggest getting these diagrams—making them ourselves or finding them on the web?”
+
+It recommended creating original diagrams. It was then able to generate the figures itself, using a PowerPoint file as an intermediate step, as well as creating the thumbnail for the article.
+
+Before asking it to begin the full project, I added one more prompt:
+
+> “Before you begin the work, is there anything else you would add or edit?”
+
+This gave ChatGPT another opportunity to review its plan and make adjustments before committing to the final output. I am wary of doing this too many times, though, because at a certain point it can start to feel like polishing a turd if you are not judicious about it.
+
+Finally, I asked ChatGPT to generate the complete article package. It produced a neatly organized ZIP file containing the Markdown article and all of the associated PNG images.
+
+All in all, I finished the article—including this personal sidebar, which I also asked ChatGPT to proofread—at **8:50 a.m.**
+Less than 2 hours in total.
+
 # The Abscopal Effect and Systemic Immune Effects of Radiation Therapy: Biology, Clinical Evidence, and Future Directions
 
 **Audience:** radiation oncology residents and clinically oriented oncology readers  
