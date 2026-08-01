@@ -8,6 +8,7 @@ summary: "A critical narrative review of the abscopal effect, separating strict 
 thumbnail: /assets/abscopal-effect-thumbnail.png
 image: /assets/abscopal-effect-thumbnail.png
 ---
+![Illustration of the abscopal effect and systemic immune effects of radiation therapy](/assets/abscopal-effect-thumbnail.png)
 
 # The Abscopal Effect and Systemic Immune Effects of Radiation Therapy: Biology, Clinical Evidence, and Future Directions
 
