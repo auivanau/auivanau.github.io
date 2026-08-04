@@ -3,6 +3,7 @@ layout: post
 title: "Weekly Medical News and Clinical Horizon Scan: July 27–August 2, 2026"
 date: 2026-08-02
 permalink: "/medicine/2026/08/02/medical-news-clinical-horizon-scan-july-27-august-2-2026/"
+series: clinical-horizon-scan
 categories: "medicine medical-news clinical-trials biotechnology public-health ai"
 thumbnail: "/assets/medical-news-clinical-horizon-scan.png"
 summary: "Perioperative dapagliflozin reduced acute kidney injury after cardiac surgery, low-dose rivaroxaban increased bleeding without cardiovascular benefit in advanced CKD, Pluvicto entered metastatic hormone-sensitive prostate cancer, weekly oral HIV therapy maintained suppression, and new trials tested culturally tailored meals and HEPA filtration."
