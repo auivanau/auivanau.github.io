@@ -4,6 +4,7 @@ title: "Weekly Radiation Oncology Literature Surveillance Digest: July 20–26, 
 date: 2026-07-26
 permalink: "/litreview/2026/07/26/radonc-literature-digest-july-20-26-2026/"
 categories: "litreview oncology radiation-oncology ai medical-physics"
+series: radonc-weekly
 thumbnail: "/assets/litreview-radonc-digest.png"
 summary: "This week’s digest highlights NCI trial-planning recommendations for advanced cutaneous squamous cell carcinoma in immunosuppressed patients, prostate radiotherapy delivery-time toxicity signals, a large multicentre pelvic CBCT dataset, recurrent gynecologic interstitial brachytherapy, and HDR brachytherapy audit infrastructure."
 ---
