@@ -5,12 +5,11 @@ date: 2026-08-02
 permalink: "/litreview/2026/08/02/radonc-literature-digest-july-27-august-2-2026/"
 categories: "litreview oncology radiation-oncology ai medical-physics"
 thumbnail: "/assets/litreview-radonc-digest.png"
+series: radonc-weekly
 summary: "This week’s digest highlights 5-year STELLAR rectal-cancer outcomes, an individual-patient-data meta-analysis of hormone therapy with postoperative prostate radiotherapy, lung SABR motion-management validation, infant medulloblastoma radiotherapy timing, breast reconstruction after PMRT, and MRI-sequence effects on radiosurgery target delineation."
 ---
 
 # Weekly Radiation Oncology Literature Surveillance Digest: July 27–August 2, 2026
-
-**Suggested filename:** `2026-08-02-radonc-literature-digest-july-27-august-2-2026.md`
 
 **Coverage window searched:** July 27–August 2, 2026
 
